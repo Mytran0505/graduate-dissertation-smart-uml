@@ -1,0 +1,6 @@
+Ban giáo trình trường ĐHCNTT muốn quản lý các tình hình viết giáo trình với các thông tin sau:
+Mỗi loại giáo trình có mã loại giáo trình duy nhất, có tên loại giáo trình, chủ đề của loại giáo trình.
+Mỗi giáo trình có mã giáo trình duy nhất để phân biệt với các giáo trình khác, có tên giáo trình, số trang, năm xuất bản.
+Mỗi giáo trình thuộc một loại giáo trình cụ thể.
+Mỗi tác giả có mã tác giả duy nhất, họ tên tác giả, ngày tháng năm sinh, quê quán, chuyên ngành.
+Mỗi tác giả có thể viết nhiều giáo trình khác nhau và mỗi giáo trình có thể do nhiều tác giả cùng viết.

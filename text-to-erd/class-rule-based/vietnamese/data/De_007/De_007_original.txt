@@ -1,0 +1,7 @@
+Một cửa hàng cho thuê đồ dự tiệc có mô tả như sau:
+Cửa hàng có nhiều trang phục khác nhau.
+Mỗi trang phục có mã trang phục duy nhất để phân biệt, tên trang phục, kích cỡ, màu sắc và giá cho thuê.
+Mỗi khách hàng có mã khách hàng duy nhất để phân biệt, họ tên, địa chỉ và số điện thoại liên lạc.
+Khi khách hàng muốn thuê đồ, một hợp đồng sẽ được lập với những thông tin gồm mã hợp đồng duy nhất để phân biệt, ngày bắt đầu hợp đồng, ngày kết thúc hợp đồng và trị giá hợp đồng.
+Khách hàng có thể có nhiều hợp đồng và một hợp đồng chỉ thuộc về một khách hàng.
+Mỗi hợp đồng có thể thuê nhiều trang phục và một trang phục có thể được thuê bởi nhiều hợp đồng khác nhau.

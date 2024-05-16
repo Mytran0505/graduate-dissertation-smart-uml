@@ -1,0 +1,10 @@
+Một cuộc thi tài năng ở địa phương có mô tả như sau:
+Cuộc thi có nhiều loại hình tài năng được tổ chức cho thí sinh tham gia.
+Thông tin loại hình tài năng được lưu giữ bao gồm: mã loại hình tài năng, tên loại hình và số thí sinh đăng ký tham gia.
+Cuộc thi có đội ngũ huấn luyện viên được lưu trữ với các thông tin: mã huấn luyện viên, họ tên, giới tính, số điện thoại.
+Mỗi thí sinh được nhận một mã số dự thi và ghi nhận lại các thông tin bao gồm: họ tên, giới tính, ngày sinh, địa chỉ.
+Để dự thi, các thí sinh phải đăng ký cho mình ít nhất một loại hình tài năng dự thi nào đó.
+Mỗi thí sinh có thể đăng ký nhiều loại hình tài năng khác nhau.
+Bên cạnh đó, mỗi thí sinh còn được ban tổ chức bố trí duy nhất một huấn luyện viên trong suốt cuộc thi.
+Một huấn luyện viên có thể huấn luyện nhiều thí sinh.
+Mỗi thí sinh chỉ được bầu chọn một thí sinh mình yêu thích nhất, thông tin này được ghi nhận để tổng hợp kết quả cuộc thi.

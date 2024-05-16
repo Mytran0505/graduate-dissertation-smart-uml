@@ -1,0 +1,6 @@
+Mỗi chuyên_đề được xác định bởi duy nhất một mã_chuyên_đề, tên_chuyên_đề, học_phí_niêm_yết.
+Mỗi học_viên được xác định bởi duy nhất một mã_học_viên, họ_tên, địa_chỉ, số_điện_thoại.
+Mỗi phiếu_đăng_ký được xác định bởi duy nhất một mã_số_phiếu_đăng_ký, ngày_lập_phiếu, tổng_học_phí.
+Mỗi học_viên có nhiều phiếu_đăng_ký.
+Mỗi phiếu_đăng_ký có thể đăng_ký nhiều chuyên_đề.
+Một chuyên_đề có thể có trong nhiều phiếu_đăng_ký.

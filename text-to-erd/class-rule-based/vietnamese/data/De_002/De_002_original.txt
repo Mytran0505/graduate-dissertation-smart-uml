@@ -1,0 +1,5 @@
+Trung tâm đào tạo nhiều chứng chỉ khác nhau (ví dụ Nghiệp vụ sư phạm, Lý luận dạy học Đại học,...), mỗi một chứng chỉ có một mã chứng chỉ duy nhất để phân biệt với các chứng chỉ khác, có tên chứng chỉ, tổng số tín chỉ và một mức học phí.
+Mỗi một môn học có một mã môn học duy nhất để phân biệt với các môn học khác, có tên môn học, số tín chỉ môn học.
+Mỗi một chứng chỉ bao gồm nhiều môn học và một môn học có thể được dạy trong một số các chứng chỉ khác nhau.
+Định kỳ trung tâm sẽ chiêu sinh các lớp học, mỗi một lớp học có một mã lớp duy nhất để phân biệt với các lớp học khác, có tên lớp, ngày bắt đầu học, ngày kết thúc, số học viên tối đa dự kiến của lớp và được nhận một chứng chỉ (sau khi hoàn thành lớp học).
+Ví dụ: lớp có mã NVSPK30 có tên lớp Nghiệp vụ sư phạm K30, sau khi hoàn tất học viên sẽ được nhận chứng chỉ Nghiệp vụ sư phạm.

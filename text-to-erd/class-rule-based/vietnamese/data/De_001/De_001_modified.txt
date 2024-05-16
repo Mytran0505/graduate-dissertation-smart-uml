@@ -1,0 +1,7 @@
+Mỗi báo được xác định bởi duy nhất một mã_báo, tên_báo, đơn_giá.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng, địa_chỉ.
+Mỗi khách_hàng có nhiều hóa_đơn.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, ngày_đặt_mua, trị_giá_hóa_đơn.
+Một hóa_đơn có thể chứa nhiều báo.
+Một báo có thể được_chứa trong nhiều hóa_đơn.
+Khi thông_tin_chi_tiết, phải biết số_lượng_đặt_mua.

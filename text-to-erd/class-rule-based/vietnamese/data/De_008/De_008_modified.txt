@@ -1,0 +1,6 @@
+Mỗi tiêu_chuẩn được xác định bởi duy nhất một mã_tiêu_chuẩn, tên_tiêu_chuẩn, thông_tin_mô_tả.
+Mỗi tiêu_chuẩn có nhiều tiêu_chí.
+Mỗi tiêu_chí được xác định bởi duy nhất một mã_tiêu_chí, nội_dung, thông_tin_gợi_ý_tiêu_chí.
+Mỗi minh_chứng được xác định bởi duy nhất một mã_minh_chứng, tên_minh_chứng, tóm_tắt_nội_dung, loại_minh_chứng, tập_tin_chứa_minh_chứng.
+Mỗi minh_chứng có thể minh_họa cho nhiều tiêu_chí.
+Mỗi tiêu_chí có thể được_minh_họa bởi nhiều minh_chứng.

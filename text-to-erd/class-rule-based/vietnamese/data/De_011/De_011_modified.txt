@@ -1,0 +1,7 @@
+Mỗi loại_hình_tài_năng được xác định bởi duy nhất một mã_loại_hình_tài_năng, tên_loại_hình, số_thí_sinh_đăng_ký_tham_gia.
+Mỗi huấn_luyện_viên được xác định bởi duy nhất một mã_huấn_luyện_viên, họ_tên, giới_tính, số_điện_thoại.
+Mỗi thí_sinh được xác định bởi duy nhất một mã_số_dự_thi, họ_tên, giới_tính, ngày_sinh, địa_chỉ.
+Một loại_hình_tài_năng có thể được_đăng_ký bởi nhiều thí_sinh.
+Mỗi thí_sinh có thể đăng_ký nhiều loại_hình_tài_năng.
+Một huấn_luyện_viên có nhiều thí_sinh.
+Mỗi thí_sinh cũng có thể được_bầu_chọn bởi một hoặc nhiều thí_sinh khác.

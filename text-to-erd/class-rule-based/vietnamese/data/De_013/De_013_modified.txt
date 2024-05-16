@@ -1,0 +1,6 @@
+Mỗi bộ_phim được xác định bởi duy nhất một mã_bộ_phim, tên_bộ_phim, năm_phát_hành, thể_loại, số_tập, số_điểm_IMDb.
+Mỗi đạo_diễn được xác định bởi duy nhất một mã_đạo_diễn, họ_tên, tuổi, năm_tốt_nghiệp, xếp_hạng.
+Mỗi diễn_viên được xác định bởi duy nhất một mã_diễn_viên, họ_tên, giới_tính, tuổi, số_vai_chính, số_vai_phụ.
+Một bộ_phim có thể được_diễn bởi nhiều diễn_viên.
+Một đạo_diễn có nhiều bộ_phim.
+Mỗi diễn_viên có thể đóng nhiều bộ_phim.

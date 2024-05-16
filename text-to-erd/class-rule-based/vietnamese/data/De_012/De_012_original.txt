@@ -1,0 +1,8 @@
+Bộ Y tế Việt Nam muốn quản lý thông tin các bệnh nhân trong dịch Covid-19 như sau:
+Mỗi bệnh viện điều trị sẽ có các thông tin như mã bệnh viện, tên bệnh viện, số giường bệnh.
+Trong quá trình điều trị, tùy tình hình chuyển biến của bệnh mà một bệnh nhân có thể được điều trị tại nhiều bệnh viện khác nhau.
+Một bệnh viện cùng lúc có thể điều trị cho nhiều bệnh nhân.
+Mỗi quốc gia có các thông tin bao gồm: mã quốc gia, tên quốc gia, số lượng ca nhiễm bệnh và số lượng người đã chết vì Covid-19 của quốc gia đó.
+Một bệnh nhân khi phát hiện bệnh sẽ được ghi nhận các thông tin mã bệnh nhân, tên bệnh nhân, giới tính, ngày sinh, địa chỉ.
+Mỗi bệnh nhân thuộc một quốc gia.
+Mỗi bệnh nhân bị lây nhiễm bởi một bệnh nhân khác và một bệnh nhân cũng có thể lây nhiễm cho nhiều bệnh nhân khác.

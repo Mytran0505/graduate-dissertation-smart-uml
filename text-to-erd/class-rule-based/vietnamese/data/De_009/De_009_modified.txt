@@ -1,0 +1,6 @@
+Mỗi môn_thể_thao được xác định bởi duy nhất một mã_môn, tên_môn, loại_môn.
+Mỗi môn_thể_thao có nhiều nội_dung_thi_đấu.
+Mỗi nội_dung_thi_đấu được xác định bởi duy nhất một mã_nội_dung, tên_nội_dung, lệ_phí_tham_gia.
+Mỗi vận_động_viên được xác định bởi duy nhất một mã_vận_động_viên, họ_tên, giới_tính, ngày_sinh, thông_tin_liên_hệ.
+Một vận_động_viên có thể tham_gia nhiều nội_dung_thi_đấu.
+Một nội_dung_thi_đấu có thể được_tham_gia bởi nhiều vận_động_viên.

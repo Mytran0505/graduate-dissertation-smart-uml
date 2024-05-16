@@ -1,0 +1,8 @@
+Ban tổ chức Hội thao cần tổ chức cơ sở dữ liệu quản lý thông tin đăng ký tham gia hội thao với nhiều môn thể thao khác nhau, thông tin chi tiết như sau:
+Mỗi môn thể thao có mã môn duy nhất để phân biệt, có tên môn, loại môn.
+Ví dụ: môn thể thao có thể thuộc loại môn đồng đội, cá nhân.
+Mỗi môn thể thao có một hoặc nhiều nội dung thi đấu.
+Mỗi nội dung chỉ thuộc một môn thể thao.
+Thông tin nội dung thi đấu gồm: mã nội dung duy nhất để phân biệt, tên nội dung và lệ phí tham gia.
+Mỗi vận động viên sẽ có mã vận động viên duy nhất để phân biệt, họ tên, giới tính, ngày sinh và thông tin liên hệ.
+Dựa trên việc đăng ký, một vận động viên có thể tham gia nhiều nội dung thi đấu khác nhau và một nội dung có thể có nhiều vận động viên tham gia.

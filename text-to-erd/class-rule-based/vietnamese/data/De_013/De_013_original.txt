@@ -1,0 +1,6 @@
+Một cơ quan muốn quản lý thông tin các bộ phim, đạo diễn và diễn viên theo mô tả như sau:
+Mỗi bộ phim được quản lý bằng một mã bộ phim duy nhất và được ghi nhận các thông tin như sau: tên bộ phim, năm phát hành, thể loại, số tập, số điểm IMDb.
+Thông tin các đạo diễn được ghi nhận bao gồm: họ tên, tuổi, năm tốt nghiệp, xếp hạng và được gán cho một mã đạo diễn để dễ dàng phân biệt.
+Các diễn viên đều được quản lý bằng một mã diễn viên riêng, thông tin lưu trữ gồm: họ tên, giới tính, tuổi, số vai chính, số vai phụ đã từng đóng.
+Một bộ phim sẽ có nhiều diễn viên tham gia diễn xuất và được chỉ đạo bởi một đạo diễn duy nhất.
+Một đạo diễn có thể phụ trách nhiều bộ phim và các diễn viên cũng có thể đóng nhiều bộ phim khác nhau.

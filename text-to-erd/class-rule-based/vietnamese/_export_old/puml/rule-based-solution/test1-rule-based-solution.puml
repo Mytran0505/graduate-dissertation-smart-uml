@@ -1,0 +1,31 @@
+@startuml
+
+entity "bao" as bao {
+	* ma_bao
+	+ ten_bao
+	+ don_gia
+}
+
+entity "khach_hang" as khach_hang {
+	* ma_khach_hang
+	+ ten_khach_hang
+	+ dia_chi
+}
+
+entity "hoa_don" as hoa_don {
+	* so_hoa_don
+	+ ngay_dat_mua
+	+ tri_gia_hoa_don
+}
+
+entity "chi_tiet_hoa_don" as chi_tiet_hoa_don {
+	+ so_luong_dat_mua
+}
+
+khach_hang |o--|{ hoa_don
+
+hoa_don |o--|{ chi_tiet_hoa_don
+
+bao |o--|{ chi_tiet_hoa_don
+
+@enduml

@@ -1,0 +1,33 @@
+@startuml
+
+entity "loai_giao_trinh" as loai_giao_trinh {
+	* ma_loai_giao_trinh
+	+ ten_loai_giao_trinh
+	+ chu_de
+}
+
+entity "giao_trinh" as giao_trinh {
+	* ma_giao_trinh
+	+ ten_giao_trinh
+	+ so_trang
+	+ nam_xuat_ban
+}
+
+entity "tac_gia" as tac_gia {
+	* ma_tac_gia
+	+ ho_ten_tac_gia
+	+ ngay_thang_nam_sinh
+	+ que_quan
+	+ chuyen_nganh
+}
+
+entity "viet" as viet {
+}
+
+loai_giao_trinh |o--|{ giao_trinh
+
+tac_gia |o--|{ viet
+
+giao_trinh |o--|{ viet
+
+@enduml

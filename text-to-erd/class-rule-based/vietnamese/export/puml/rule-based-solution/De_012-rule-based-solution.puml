@@ -1,0 +1,35 @@
+@startuml
+
+entity "benh_vien" as benh_vien {
+	* ma_benh_vien
+	+ ten_benh_vien
+	+ so_giuong_benh
+}
+
+entity "quoc_gia" as quoc_gia {
+	* ma_quoc_gia
+	+ ten_quoc_gia
+	+ so_luong_ca_nhiem_benh
+	+ so_luong_nguoi_da_chet
+}
+
+entity "benh_nhan" as benh_nhan {
+	* ma_benh_nhan
+	+ ten_benh_nhan
+	+ gioi_tinh
+	+ ngay_sinh
+	+ dia_chi
+}
+
+entity "duoc_dieu_tri" as duoc_dieu_tri {
+}
+
+quoc_gia |o--|{ benh_nhan
+
+benh_nhan |o--|{ benh_nhan
+
+benh_nhan |o--|{ duoc_dieu_tri
+
+benh_vien |o--|{ duoc_dieu_tri
+
+@enduml

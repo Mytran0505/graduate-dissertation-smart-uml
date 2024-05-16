@@ -1,0 +1,6 @@
+Để quản lý thông tin về một diễn đàn, người ta tổ chức một cơ sở dữ liệu được mô tả như sau:
+Các thành viên tham gia diễn đàn có một mã thành viên duy nhất để phân biệt với các thành viên khác, có họ tên, giới tính, ngày sinh, mật khẩu.
+Mỗi bài viết của diễn đàn có mã bài viết duy nhất, tiêu đề, ngày đăng, và nội dung của bài viết.
+Mỗi bài viết được bình luận bởi nhiều thành viên và mỗi thành viên có thể bình luận nhiều bài viết.
+Hệ thống ghi nhận lại thời gian bình luận và nội dung của bình luận.
+Mỗi bài viết thuộc một chủ đề, mỗi chủ đề có mã chủ đề duy nhất và tên của chủ đề.

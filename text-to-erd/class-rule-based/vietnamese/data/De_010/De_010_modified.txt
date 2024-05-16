@@ -1,0 +1,7 @@
+Mỗi thành_viên được xác định bởi duy nhất một mã_thành_viên, họ_tên, giới_tính, ngày_sinh, mật_khẩu.
+Mỗi bài_viết được xác định bởi duy nhất một mã_bài_viết, tiêu_đề, ngày_đăng, nội_dung_của_bài_viết.
+Mỗi bài_viết có thể được_bình_luận bởi nhiều thành_viên.
+Mỗi thành_viên có thể bình_luận nhiều bài_viết.
+Khi bình_luận, phải biết thời_gian_bình_luận và nội_dung_của_bình_luận.
+Mỗi chủ_đề có nhiều bài_viết.
+Mỗi chủ_đề được xác định bởi duy nhất một mã_chủ_đề, tên_của_chủ_đề.

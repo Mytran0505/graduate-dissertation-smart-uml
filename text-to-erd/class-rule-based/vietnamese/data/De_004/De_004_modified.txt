@@ -1,0 +1,7 @@
+Ban giáo trình trường ĐHCNTT muốn quản lý các tình hình viết giáo trình với các thông tin sau:
+Mỗi loại_giáo_trình được xác định bởi duy nhất một mã_loại_giáo_trình, tên_loại_giáo_trình, chủ_đề.
+Mỗi giáo_trình được xác định bởi duy nhất một mã_giáo_trình, tên_giáo_trình, số_trang, năm_xuất_bản.
+Một loại_giáo_trình có nhiều giáo_trình.
+Mỗi tác_giả được xác định bởi duy nhất một mã_tác_giả, họ_tên_tác_giả, ngày_tháng_năm_sinh, quê_quán, chuyên_ngành.
+Mỗi tác_giả có thể viết nhiều giáo_trình.
+Mỗi giáo_trình có thể được_viết bởi nhiều tác_giả.

@@ -1,0 +1,7 @@
+Một nhà văn hóa cần tổ chức cơ sở dữ liệu quản lý với chi tiết như sau:
+Nhà văn hóa có tổ chức nhiều chuyên đề.
+Mỗi chuyên đề có mã chuyên đề duy nhất để phân biệt, có tên chuyên đề, học phí niêm yết.
+Nhà văn hóa cần lưu trữ thông tin học viên, mỗi học viên có mã học viên duy nhất để nhận biết, có họ tên, địa chỉ và số điện thoại liên lạc.
+Khi học viên đăng ký học các chuyên đề, cần phải điền phiếu đăng ký với những thông tin như mã số phiếu đăng ký duy nhất để phân biệt, ngày lập phiếu, tổng học phí.
+Mỗi học viên có thể có nhiều phiếu đăng ký và một phiếu đăng ký chỉ thuộc về một học viên.
+Mỗi phiếu đăng ký có thể đăng ký nhiều chuyên đề và một chuyên đề có thể có trong nhiều phiếu đăng ký khác nhau.

@@ -1,0 +1,8 @@
+Để phục vụ nhu cầu kiểm định chương trình đào tạo theo chuẩn ASIIN thông qua các tiêu chuẩn đánh giá, Khoa cần tổ chức cơ sở dữ liệu để quản lý các minh chứng, cụ thể như sau:
+Mỗi tiêu chuẩn được đánh mã tiêu chuẩn để phân biệt, có tên tiêu chuẩn và thông tin mô tả.
+Mỗi tiêu chuẩn bao gồm nhiều tiêu chí khác nhau, mỗi tiêu chí chỉ thuộc về một tiêu chuẩn.
+Mỗi tiêu chí có mã tiêu chí, nội dung và thông tin gợi ý tiêu chí.
+Mỗi minh chứng được đánh mã minh chứng để phân biệt, có tên minh chứng, tóm tắt nội dung, loại minh chứng và tập tin chứa minh chứng.
+Ví dụ: minh chứng có thể thuộc loại văn bản, hình ảnh, trang web.
+Dựa trên nội dung, minh chứng sẽ được phân vào các tiêu chí khác nhau.
+Mỗi minh chứng có thể minh họa cho nhiều tiêu chí khác nhau và mỗi tiêu chí có nhiều minh chứng minh họa.

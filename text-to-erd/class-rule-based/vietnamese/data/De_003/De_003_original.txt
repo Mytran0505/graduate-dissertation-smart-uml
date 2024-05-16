@@ -1,0 +1,6 @@
+Khoa HTTT muốn quản lý đồ án do sinh viên thực hiện với những thông tin sau:
+Mỗi môn học có mã môn học, tên môn học, số tín chỉ lý thuyết, số tín chỉ thực hành.
+Mỗi đồ án có mã đồ án, tên đồ án, ngày nộp.
+Mỗi đồ án thuộc một môn học nào đó.
+Mỗi sinh viên có mã sinh viên duy nhất để phân biệt với các sinh viên khác, có họ tên sinh viên, địa chỉ, số điện thoại.
+Mỗi sinh viên trong quá trình học sẽ phải thực hiện nhiều đồ án khác nhau, và mỗi đồ án do nhiều sinh viên cùng thực hiện.

@@ -1,0 +1,6 @@
+Mỗi trang_phục được xác định bởi duy nhất một mã_trang_phục, tên_trang_phục, kích_cỡ, màu_sắc, giá_cho_thuê.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, họ_tên, địa_chỉ, số_điện_thoại.
+Mỗi hợp_đồng được xác định bởi duy nhất một mã_hợp_đồng, ngày_bắt_đầu_hợp_đồng, ngày_kết_thúc_hợp_đồng, trị_giá_hợp_đồng.
+Một khách_hàng có nhiều hợp_đồng.
+Mỗi hợp_đồng có thể thuê nhiều trang_phục.
+Một trang_phục có thể được_thuê bởi nhiều hợp_đồng.

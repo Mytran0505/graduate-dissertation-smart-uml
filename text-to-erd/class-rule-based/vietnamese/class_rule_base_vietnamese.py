@@ -31,27 +31,28 @@ class UMLGenerator:
         space_pattern = re.compile(r'\b \b')
         word = re.sub(space_pattern, '_', re.sub(common_noun_pattern, '', noun_chunk))
 
-        if self.nlp(word)[0].pos_ == "NOUN" and self.nlp(word)[0].tag_ == "NNS":
-            return self.nlp(word)[0].text.rstrip("s")
+        # if self.nlp(word)[0].pos_ == "NOUN" and self.nlp(word)[0].tag_ == "NNS":
+        #     return self.nlp(word)[0].text.rstrip("s")
         return word
 
     def split_sentences(self, paragraph):
-        return re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', paragraph)
+        return re.split(r'(?<!\w\.\w.)(?<=\.|\?)\s', paragraph)
+        #return re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', paragraph)
         #return [str(sentence) for sentence in self.nlp(paragraph).sents]
 
     def clean_sentence(self, sentence):
-        sentence = sentence.replace(" cũng", "")
+        #sentence = sentence.replace(" cũng", "")
         if "," in sentence:
             sentence = sentence.replace("và ", "")
         else:
             sentence = sentence.replace("và ", ". \n")
-        sentence = sentence.replace(" hoặc", ",")
+        #sentence = sentence.replace(" hoặc", ",")
         return sentence
 
-    def print_relationship(self, entity_1, entity_2):
-            entityReference ={}
-            entityReference[entity_2] = entity_1.lower()
-            self.entityReference.update(entityReference)
+    # def print_relationship(self, entity_1, entity_2):
+    #         entityReference ={}
+    #         entityReference[entity_2] = entity_1.lower()
+    #         self.entityReference.update(entityReference)
 
 
     # def there_are_entity_relationship_entity_match(self, sentence):
@@ -69,18 +70,18 @@ class UMLGenerator:
     #     self.print_relationship(match[0][-1].strip(), match[0][1].strip())
 
     def noun_has_entity_relationship_entity_match(self, sentence): #DONE
-        entity_has_entity_2 = r"[Mỗi|Một] (\w+(\s\w+)*) có (\d+|nhiều|một) (\w+(\s\w+)*)"
+        entity_has_entity_2 = r"[Mỗi|Một] (\w+) có nhiều (\w+)"
         ehe2_matches = re.findall(entity_has_entity_2, sentence)
         return ehe2_matches
 
     def noun_has_entity_relationship_entity(self, sentence, match):#DONE
         entity_1 = self.convert_name(match[0][0].strip())
-        entity_2 = self.convert_name(match[0][3].strip())
+        entity_2 = self.convert_name(match[0][1].strip())
         if entity_1 not in self.entities:
             self.entities[entity_1] = []
         if entity_2 not in self.entities:
             self.entities[entity_2] = []
-        self.print_relationship(match[0][0].strip(), match[0][3].strip())
+        #self.print_relationship(match[0][0].strip(), match[0][3].strip())
         self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
 
     # def many_many_relationship_entity_match(self, sentence):
@@ -127,15 +128,17 @@ class UMLGenerator:
     #         self.entities[entity_2] = []
     #     self.print_relationship(match[0][2].strip(), match[0][0].strip())
         
-    # def self_entity_relationship_entity_match(self, sentence):
-    #     entity_has_entity_5 = r"[The|Each|An|An|This|That|These|Those] (\w+(\s\w+)*) in the (\w+(\s\w+)*) can be (\w+(\s\w+)*) by another (\w+(\s\w+)*)"
-    #     ehe5_matches = re.findall(entity_has_entity_5, sentence)
-    #     return ehe5_matches
+    def self_entity_relationship_entity_match(self, sentence):
+        #entity_has_entity_5 = r"[The|Each|An|An|This|That|These|Those] (\w+(\s\w+)*) in the (\w+(\s\w+)*) can be (\w+(\s\w+)*) by another (\w+(\s\w+)*)"
+        entity_has_entity_5 = r"[Mỗi|Một] (\w+(\s\w+)*) cũng có thể.*?(\w+(?:_\w+)*).*?một hoặc nhiều (\w+(\s\w+)*) khác"
+        ehe5_matches = re.findall(entity_has_entity_5, sentence)
+        return ehe5_matches
 
-    # def self_entity_relationship_entity(self, sentence, match):
-    #     entity_1 = self.convert_name(match[0][-2].strip())
-    #     entity_2 = self.convert_name(match[0][0].strip())
-    #     self.relationships.append(f"{entity_1.lower()} |o--|{'{'} {entity_2.lower()}\n\n")
+    def self_entity_relationship_entity(self, sentence, match):
+        entity_1 = self.convert_name(match[0][0].strip())
+        entity_2 = self.convert_name(match[0][3].strip())
+        if (entity_1 == entity_2):
+            self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
         
     def has_entity_relationship_attributes_match(self, sentence):
         entity_has_attributes_1 = r"[Mỗi|Một] (\w+) (?:được gán?|được xác định bởi duy nhất một) (\w+(?:,\s?\w+)*)"
@@ -207,8 +210,8 @@ class UMLGenerator:
                 else:
                     self.entities[verb] = []
                     self.entities[verb].extend([self.convert_name(attr) for attr in attribute])
-                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(verb.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(entity_1.lower()))}\n\n")
-                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(verb.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
+                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(verb.lower()))}\n\n")
+                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_2.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(verb.lower()))}\n\n")
 
     def extract_information_text(self, sentences):
         for sentence in sentences:
@@ -223,8 +226,8 @@ class UMLGenerator:
             #     self.noun_can_have_entity_relationship_entity(sentence, self.noun_can_have_entity_relationship_entity_match(sentence))
             # elif len(self.noun_belong_entity_relationship_entity_match(sentence)) == 1:
             #     self.noun_belong_entity_relationship_entity( sentence, self.noun_belong_entity_relationship_entity_match(sentence))
-            # elif len(self.self_entity_relationship_entity_match(sentence)) == 1:
-            #     self.self_entity_relationship_entity(sentence, self.self_entity_relationship_entity_match(sentence))
+            elif len(self.self_entity_relationship_entity_match(sentence)) == 1:
+                self.self_entity_relationship_entity(sentence, self.self_entity_relationship_entity_match(sentence))
             elif len(self.has_entity_relationship_attributes_match(sentence)) == 1:
                 self.has_entity_relationship_attributes(sentence, self.has_entity_relationship_attributes_match(sentence))
             

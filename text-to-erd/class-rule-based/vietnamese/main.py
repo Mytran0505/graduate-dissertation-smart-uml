@@ -10,7 +10,7 @@ if __name__ == "__main__":
         uml_generator = UMLGenerator()
         modified_file = None
         for file in files:
-            if file.endswith("-modified.txt"):
+            if file.endswith("_modified.txt"):
                 path_file = os.path.join(root, file)
                 modified_file = file
                 break
@@ -24,6 +24,6 @@ if __name__ == "__main__":
             uml_generator.check_many_many_rela(paragraph)
             
             # Construct output file name
-            output_file_name = modified_file.replace("-modified.txt", "-rule-based-solution")
+            output_file_name = modified_file.replace("_modified.txt", "-rule-based-solution")
             uml_generator.save_puml(uml_generator.print_uml(), puml_output_directory, output_file_name)
             uml_generator.save_sql(uml_generator.print_sql(), sql_output_directory, output_file_name)
