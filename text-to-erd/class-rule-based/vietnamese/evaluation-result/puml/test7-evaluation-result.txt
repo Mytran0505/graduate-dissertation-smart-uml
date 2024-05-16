@@ -1,0 +1,14 @@
+Equivalent Entities:
+{'dang_ky', 'phong_may_tinh', 'may_tinh', 'mon_hoc'}
+Equivalent Attributes:
+phong_may_tinh: * ma_phong, + ten_phong, + ten_nguoi_quan_ly_phong
+may_tinh: + toc_do_cpu, + dung_luong_ram, + dung_luong_o_cung, * ma_may_tinh
+mon_hoc: + thoi_luong_mon_hoc, * ma_mon_hoc, + ten_mon_hoc
+dang_ky: + ngay_dang_ky
+Equivalent Relationships:
+phong_may_tinh - may_tinh
+mon_hoc - dang_ky
+phong_may_tinh - dang_ky
+The expert's number of elements = 18
+The number of elements in the machine is correct with the machine's number of elements = 18
+The correct result = 100.0%

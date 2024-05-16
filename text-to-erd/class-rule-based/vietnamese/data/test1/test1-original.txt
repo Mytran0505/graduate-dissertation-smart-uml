@@ -1,0 +1,3 @@
+Công ty phát hành nhiều báo khác nhau (ví dụ báo Tuổi trẻ, báo Thanh niên, ...), mỗi báo có một mã báo duy nhất để phân biệt với các báo khác, có tên báo, đơn giá.
+Mỗi khách hàng có một mã khách hàng duy nhất để phân biệt với các khách hàng khác, có tên khách hàng, địa chỉ.
+Mỗi khách hàng có thể đặt mua nhiều báo. Khi đặt mua báo, mỗi khách hàng sẽ nhận một hóa đơn tính tiền. Mỗi hóa đơn có một số hóa đơn duy nhất để phân biệt với các hóa đơn khác, có ngày đặt mua, trị giá hóa đơn. Công ty cũng lưu trữ thông tin chi tiết của mỗi hóa đơn gồm có những báo nào với số lượng đặt mua là bao nhiêu.

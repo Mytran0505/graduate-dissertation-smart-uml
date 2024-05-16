@@ -1,0 +1,13 @@
+Equivalent Entities:
+{'thuc_hien', 'sinh_vien', 'do_an', 'mon_hoc'}
+Equivalent Attributes:
+mon_hoc: + so_tin_chi_ly_thuyet, * ma_so_mon_hoc, + ten_mon_hoc, + so_tin_chi_thuc_hanh
+do_an: + ten_do_an, + ngay_nop, * ma_so_do_an
+sinh_vien: + dia_chi, + so_dien_thoai, + ho_ten_sinh_vien, * ma_so_sinh_vien
+Equivalent Relationships:
+thuc_hien - sinh_vien
+mon_hoc - do_an
+thuc_hien - do_an
+The expert's number of elements = 18
+The number of elements in the machine is correct with the machine's number of elements = 18
+The correct result = 100.0%

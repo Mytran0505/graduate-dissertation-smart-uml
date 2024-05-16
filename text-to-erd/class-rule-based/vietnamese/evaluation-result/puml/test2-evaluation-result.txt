@@ -1,0 +1,13 @@
+Equivalent Entities:
+{'chung_chi', 'bao_gom', 'lop_hoc', 'mon_hoc'}
+Equivalent Attributes:
+chung_chi: + ten_chung_chi, + tong_so_tin_chi, * ma_chung_chi, + muc_hoc_phi
+mon_hoc: + so_tin_chi_mon_hoc, * ma_mon_hoc, + ten_mon_hoc
+lop_hoc: + ngay_bat_dau_hoc, * ma_lop, + ngay_ket_thuc, + so_hoc_vien_toi_da_du_kien, + ten_lop
+Equivalent Relationships:
+bao_gom - mon_hoc
+bao_gom - chung_chi
+chung_chi - lop_hoc
+The expert's number of elements = 19
+The number of elements in the machine is correct with the machine's number of elements = 19
+The correct result = 100.0%

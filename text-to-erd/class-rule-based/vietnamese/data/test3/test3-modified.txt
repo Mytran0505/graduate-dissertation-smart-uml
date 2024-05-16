@@ -1,0 +1,6 @@
+Mỗi môn_học được xác định bởi duy nhất một mã_số_môn_học, tên_môn_học, số_tín_chỉ_lý_thuyết, số_tín_chỉ_thực_hành.
+Mỗi đồ_án được xác định bởi duy nhất một mã_số_đồ_án, tên_đồ_án, ngày_nộp.
+Mỗi môn_học có nhiều đồ_án.
+Mỗi sinh_viên được xác định bởi duy nhất một mã_số_sinh_viên, họ_tên_sinh_viên, địa_chỉ, số_điện_thoại.
+Một sinh_viên có thể thực_hiện nhiều đồ_án.
+Một đồ_án có thể được_thực_hiện bởi nhiều sinh_viên.

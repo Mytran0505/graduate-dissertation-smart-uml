@@ -1,0 +1,6 @@
+Mỗi chứng_chỉ được xác định bởi duy nhất một mã_chứng_chỉ, tên_chứng_chỉ, tổng_số_tín_chỉ, mức_học_phí.
+Mỗi môn_học được xác định bởi duy nhất một mã_môn_học, tên_môn_học, số_tín_chỉ_môn_học.
+Một chứng_chỉ có thể bao_gồm nhiều môn_học.
+Một môn_học có thể được_dạy trong nhiều chứng_chỉ.
+Mỗi lớp_học được xác định bởi duy nhất một mã_lớp, tên_lớp, ngày_bắt_đầu_học, ngày_kết_thúc, số_học_viên_tối_đa_dự_kiến.
+Mỗi chứng_chỉ có nhiều lớp_học.

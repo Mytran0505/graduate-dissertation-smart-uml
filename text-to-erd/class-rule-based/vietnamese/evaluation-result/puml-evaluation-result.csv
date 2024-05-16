@@ -1,0 +1,6 @@
+Test,The expert's number of elements,The number of elements in the machine is correct with the machine's number of elements,The correct result (%)
+test1,17,17,100.0
+test2,19,19,100.0
+test3,18,18,100.0
+test6,17,17,100.0
+test7,18,18,100.0

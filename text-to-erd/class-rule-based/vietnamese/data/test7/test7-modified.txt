@@ -1,0 +1,8 @@
+Một trung tâm công nghệ thông tin cần tổ chức một cơ sở dữ liệu để quản lý các phòng máy tính thực hành với các thông tin sau:
+Mỗi phòng_máy_tính được xác định bởi duy nhất một mã_phòng, tên_phòng, tên_người_quản_lý_phòng.
+Mỗi máy_tính được xác định bởi duy nhất một mã_máy_tính, tốc_độ_CPU, dung_lượng_RAM, dung_lượng_ổ_cứng.
+Mỗi phòng_máy_tính có nhiều máy_tính.
+Mỗi môn_học được xác định bởi duy nhất một mã_môn_học, tên_môn_học, thời_lượng_môn_học.
+Một môn_học có thể được_thực_hành ở nhiều phòng_máy_tính.
+Một phòng_máy_tính có thể được_đăng_ký cho nhiều môn_học.
+Khi đăng_ký, phải biết ngày_đăng_ký.

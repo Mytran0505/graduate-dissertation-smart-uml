@@ -1,0 +1,5 @@
+Một trung tâm tin học cần tổ chức một cơ sở dữ liệu để quản lý các phòng máy thực hành với các thông tin như sau:
+Mỗi phòng máy có mã phòng duy nhất để phân biệt với các phòng máy khác, có tên phòng và tên người quản lý phòng.
+Mỗi máy tính có một mã máy duy nhất. Ngoài ra, mỗi máy tính còn có các thông tin về cấu hình như: tốc độ CPU, dung lượng RAM, dung lượng ổ cứng. Các máy tính được bố trí trong các phòng máy.
+Mỗi môn học có mã môn học duy nhất, có tên môn học và thời lượng môn học.
+Mỗi môn học có thể được thực hành ở các phòng máy khác nhau và một phòng máy có thể được đăng ký cho nhiều môn học khác nhau, khi đăng ký phải biết ngày đăng ký.

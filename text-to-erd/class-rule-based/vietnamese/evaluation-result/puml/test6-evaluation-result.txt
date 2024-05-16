@@ -1,0 +1,13 @@
+Equivalent Entities:
+{'chuyen_de', 'hoc_vien', 'dang_ky', 'phieu_dang_ky'}
+Equivalent Attributes:
+chuyen_de: + ten_chuyen_de, + hoc_phi_niem_yet, * ma_so_chuyen_de
+hoc_vien: + dia_chi, + so_dien_thoai_lien_lac, + ho_ten, * ma_so_hoc_vien
+phieu_dang_ky: * ma_so_phieu_dang_ky, + ngay_lap_phieu, + tong_hoc_phi
+Equivalent Relationships:
+dang_ky - chuyen_de
+hoc_vien - phieu_dang_ky
+dang_ky - phieu_dang_ky
+The expert's number of elements = 17
+The number of elements in the machine is correct with the machine's number of elements = 17
+The correct result = 100.0%
