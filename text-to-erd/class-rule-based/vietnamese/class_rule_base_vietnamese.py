@@ -84,6 +84,20 @@ class UMLGenerator:
         #self.print_relationship(match[0][0].strip(), match[0][3].strip())
         self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
 
+    def one_to_one_relationship_match(self, sentence): #DONE
+        one_to_one = r"[Mỗi|Một] (\w+) chỉ có duy nhất một (\w+).*?"
+        oto_matches = re.findall(one_to_one, sentence)
+        return oto_matches
+
+    def one_to_one_relationship(self, sentence, match):#DONE
+        entity_1 = self.convert_name(match[0][0].strip())
+        entity_2 = self.convert_name(match[0][1].strip())
+        if entity_1 not in self.entities:
+            self.entities[entity_1] = []
+        if entity_2 not in self.entities:
+            self.entities[entity_2] = []
+        self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} ||--o| {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
+
     # def many_many_relationship_entity_match(self, sentence):
     #     entity_has_entity_2 = r"[Mỗi|Một] (\w+(\s\w+)*) có thể được (\w+) (\w+) (\d+|nhiều|một) (\w+(\s\w+)*)"
     #     ehe2_matches = re.findall(entity_has_entity_2, sentence)
@@ -220,6 +234,8 @@ class UMLGenerator:
             # el
             if len(self.noun_has_entity_relationship_entity_match(sentence)) == 1:
                 self.noun_has_entity_relationship_entity(sentence, self.noun_has_entity_relationship_entity_match(sentence))
+            elif len(self.one_to_one_relationship_match(sentence)) == 1:
+                self.one_to_one_relationship(sentence, self.one_to_one_relationship_match(sentence))
             # elif len(self.many_many_relationship_entity_match(sentence)) == 1:
             #     self.many_many_relationship_entity(sentence, self.many_many_relationship_entity_match(sentence))
             # elif len(self.noun_can_have_entity_relationship_entity_match(sentence)) == 1:

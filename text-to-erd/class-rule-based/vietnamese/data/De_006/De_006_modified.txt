@@ -1,5 +1,6 @@
 Mỗi phòng_máy được xác định bởi duy nhất một mã_phòng, tên_phòng, tên_người_quản_lý_phòng.
-Mỗi máy_tính được xác định bởi duy nhất một mã_máy, tốc_độ_CPU, dung_lượng_RAM, dung_lượng_ổ_cứng.
+Mỗi máy_tính được xác định bởi duy nhất một mã_máy.
+Mỗi máy_tính được gán tốc_độ_CPU, dung_lượng_RAM, dung_lượng_ổ_cứng.
 Mỗi phòng_máy có nhiều máy_tính.
 Mỗi môn_học được xác định bởi duy nhất một mã_môn_học, tên_môn_học, thời_lượng_môn_học.
 Mỗi môn_học có thể được_thực_hành ở nhiều phòng_máy.
