@@ -266,6 +266,16 @@ class UMLGenerator:
         for key, values in self.entities.items():
             content_uml += f'entity "{unidecode.unidecode(key)}" as {unidecode.unidecode(key).lower()} {{\n' 
             if len(values) > 0:
+                # doan code nay de dam bao khoa chinh luon nam o vi tri [0]
+                for value in values:
+                    if value.startswith("*") and values.index(value) != 0:
+                        pos = values.index(value)
+                        temp = values[pos]
+                        for i in reversed(range(pos)):
+                            values[i+1] = values[i]
+                        values[0] = temp
+
+                #in ra cac attribute
                 for attr in values:
                     if (attr[0] != '-' and attr[0] != '.'):
                         content_uml += f'\t{unidecode.unidecode(attr).lower()}\n'
