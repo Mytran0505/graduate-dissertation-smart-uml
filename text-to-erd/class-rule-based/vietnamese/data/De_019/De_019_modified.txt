@@ -1,0 +1,9 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng, địa_chỉ, số_chứng_minh_nhân_dân.
+Mỗi chủ_nhà được xác định bởi duy nhất một mã_chủ_nhà, tên_chủ_nhà, địa_chỉ, số_chứng_minh_nhân_dân.
+Một chủ_nhà có nhiều phòng_trọ.
+Mỗi phòng_trọ được xác định bởi duy nhất một mã_phòng_trọ, giá_thuê.
+Một phòng_trọ có nhiều khách_hàng.
+Một phòng_trọ chỉ có duy nhất một khách_hàng làm đại diện.
+Một khách_hàng có nhiều thanh_toán.
+Một phòng_trọ có nhiều thanh_toán.
+Mỗi thanh_toán được xác định bởi duy nhất một số_hóa_đơn, ngày_nộp, số_tiền.

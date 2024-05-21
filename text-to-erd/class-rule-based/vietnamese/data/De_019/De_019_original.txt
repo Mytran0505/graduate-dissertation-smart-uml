@@ -1,0 +1,8 @@
+Một cơ sở dữ liệu quản lý nhà trọ được thiết kế như sau:
+Mỗi khách hàng khi đến thuê phòng trọ sẽ được ghi lại các thông tin bao gồm: mã khách hàng duy nhất, tên khách hàng, địa chỉ, số chứng minh nhân dân.
+Mỗi chủ nhà có mã chủ nhà duy nhất, có tên chủ nhà, địa chỉ, số chứng minh nhân dân.
+Một chủ nhà có thể sở hữu nhiều phòng trọ.
+Mỗi phòng trọ có mã phòng trọ duy nhất để phân biệt với các phòng trọ khác và có giá thuê.
+Một phòng trọ có thể được thuê bởi nhiều khách hàng. Tuy nhiên, trong một thời điểm thuê, một phòng trọ chỉ có duy nhất một khách hàng đứng ra làm đại diện liên lạc.
+Hàng tháng, khách hàng khi đang thuê trọ phải thanh toán tiền trọ. Do đó, một khách hàng sẽ có thể phải thanh toán nhiều lần và một phòng trọ cũng có thể được thanh toán nhiều lần.
+Thông tin thanh toán bao gồm: số hóa đơn duy nhất, ngày nộp, số tiền.

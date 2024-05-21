@@ -1,0 +1,38 @@
+@startuml
+
+entity "khach_hang" as khach_hang {
+ * ma_khach_hang
+ + ten_khach_hang
+ + dia_chi
+ + so_chung_minh_nhan_dan
+}
+
+entity "chu_nha" as chu_nha {
+ * ma_chu_nha
+ + ten_chu_nha
+ + dia_chi
+ + so_chung_minh_nhan_dan
+}
+
+entity "phong_tro" as phong_tro {
+ * ma_phong_tro
+ + gia_thue
+}
+
+entity "thanh_toan" as thanh_toan {
+ * so_hoa_don
+ + ngay_nop
+ + so_tien
+}
+
+chu_nha |o--|{ phong_tro
+
+phong_tro |o--|{ khach_hang
+
+phong_tro ||--o| khach_hang
+
+khach_hang |o--|{ thanh_toan
+
+phong_tro |o--|{ thanh_toan
+
+@enduml
