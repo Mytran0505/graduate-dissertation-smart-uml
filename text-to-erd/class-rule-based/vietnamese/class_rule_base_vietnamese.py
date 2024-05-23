@@ -25,6 +25,7 @@ class UMLGenerator:
         self.relationships = []
         self.attributeReference = {}
         self.entityReference ={}
+        self.selfEntityReference = {}
 
     def convert_name(self, noun_chunk):
         common_noun_pattern = re.compile(r'\b(?:mỗi|một) \b', re.IGNORECASE)
@@ -144,14 +145,18 @@ class UMLGenerator:
         
     def self_entity_relationship_entity_match(self, sentence):
         #entity_has_entity_5 = r"[The|Each|An|An|This|That|These|Those] (\w+(\s\w+)*) in the (\w+(\s\w+)*) can be (\w+(\s\w+)*) by another (\w+(\s\w+)*)"
-        entity_has_entity_5 = r"[Mỗi|Một] (\w+(\s\w+)*) cũng có thể.*?(\w+(?:_\w+)*).*?một hoặc nhiều (\w+(\s\w+)*) khác"
+        entity_has_entity_5 = r"(Mỗi|Một) (\w+(?:\s(?!chỉ\s)\w+)*) (?:bị|chỉ được|được) .*?(\w+(?:_\w+)*).*?(?:bởi một|cho một) (\w+(?:\s\w+)*) khác"
         ehe5_matches = re.findall(entity_has_entity_5, sentence)
         return ehe5_matches
 
     def self_entity_relationship_entity(self, sentence, match):
-        entity_1 = self.convert_name(match[0][0].strip())
+        entity_1 = self.convert_name(match[0][1].strip())
         entity_2 = self.convert_name(match[0][3].strip())
+        selfAtrribute = self.convert_name(match[0][2].strip())
         if (entity_1 == entity_2):
+            selfAtrribute = f'^ Mã_{entity_1}_' + selfAtrribute
+            self.selfEntityReference[entity_1] = entity_2
+            self.entities[entity_1].append(selfAtrribute)
             self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
         
     def has_entity_relationship_attributes_match(self, sentence):
@@ -277,7 +282,7 @@ class UMLGenerator:
 
                 #in ra cac attribute
                 for attr in values:
-                    if (attr[0] != '-' and attr[0] != '.'):
+                    if (attr[0] != '-' and attr[0] != '.' and attr[0] != '^'):
                         content_uml += f'\t{unidecode.unidecode(attr).lower()}\n'
             content_uml += "}\n\n"
         for relation in self.relationships:
@@ -323,6 +328,11 @@ class UMLGenerator:
                     elif attr[0] == '.':
                         sql += f'\t{attr_udc} {attr_type},\n'
                         sql += f'\tCONSTRAINT FK_{unidecode.unidecode(key.lower())}_{unidecode.unidecode(self.entityReference[key.lower()])} FOREIGN KEY({attr_udc}) REFERENCES {unidecode.unidecode(self.entityReference[key.lower()])}({attr_udc}),\n'                       
+                    elif attr[0] == '^':
+                        sql += f'\t{attr_udc} {attr_type},\n'
+                        sql += f'\tCONSTRAINT FK_{unidecode.unidecode(key.lower())}_{unidecode.unidecode(self.selfEntityReference[key.lower()])} FOREIGN KEY({attr_udc}) REFERENCES {unidecode.unidecode(self.selfEntityReference[key.lower()])}('
+                        sql += ', '.join([unidecode.unidecode(attr[2:]) for attr in values if attr[0] == "*"])
+                        sql += '),\n'
                     else:
                         sql += f'\t{attr_udc} {attr_type},\n'
                 if attributes:

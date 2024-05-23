@@ -4,4 +4,4 @@ Một bệnh_viện có thể điều_trị cho nhiều bệnh_nhân.
 Mỗi quốc_gia được xác định bởi duy nhất một mã_quốc_gia, tên_quốc_gia, số_lượng_ca_nhiễm_bệnh, số_lượng_người_đã_chết.
 Một bệnh_nhân được xác định bởi duy nhất một mã_bệnh_nhân, tên_bệnh_nhân, giới_tính, ngày_sinh, địa_chỉ.
 Một quốc_gia có nhiều bệnh_nhân.
-Mỗi bệnh_nhân cũng có thể lây_nhiễm cho một hoặc nhiều bệnh_nhân khác.
+Mỗi bệnh_nhân bị lây_nhiễm bởi một bệnh_nhân khác.

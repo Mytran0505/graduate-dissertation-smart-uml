@@ -4,4 +4,4 @@ Mỗi thí_sinh được xác định bởi duy nhất một mã_số_dự_thi, 
 Một loại_hình_tài_năng có thể được_đăng_ký bởi nhiều thí_sinh.
 Mỗi thí_sinh có thể đăng_ký nhiều loại_hình_tài_năng.
 Một huấn_luyện_viên có nhiều thí_sinh.
-Mỗi thí_sinh cũng có thể được_bầu_chọn bởi một hoặc nhiều thí_sinh khác.
+Mỗi thí_sinh chỉ được bầu_chọn cho một thí_sinh khác.
