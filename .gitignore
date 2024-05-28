@@ -1,1 +1,5 @@
 text-to-erd/class-rule-based/vietnamese/export/
+text-to-sql/model
+text-to-sql/model_ok
+text-to-sql/data
+**/*.pyc
