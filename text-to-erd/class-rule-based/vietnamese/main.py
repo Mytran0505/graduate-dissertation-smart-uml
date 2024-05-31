@@ -13,9 +13,6 @@ if __name__ == "__main__":
             if file.endswith("_modified.txt"):
                 path_file = os.path.join(root, file)
                 modified_file = file
-                #break
-        
-        #if modified_file:
                 with open(path_file, encoding="utf-8") as f:
                     paragraph = f.read()
                 sentences = uml_generator.split_sentences(" ".join([uml_generator.clean_sentence(s) for s in uml_generator.split_sentences(paragraph)]))
