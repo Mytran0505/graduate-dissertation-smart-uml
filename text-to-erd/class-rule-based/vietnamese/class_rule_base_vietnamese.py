@@ -26,6 +26,7 @@ class UMLGenerator:
         self.attributeReference = []
         self.entityReference = []
         self.entityReferenceOptional = []
+        self.processed_pairs = set()
 
     def convert_name(self, noun_chunk):
         common_noun_pattern = re.compile(r'\b(?:mỗi|một) \b', re.IGNORECASE)
@@ -139,46 +140,55 @@ class UMLGenerator:
                             break
 
     def check_many_many_rela(self, paragraph):
-        many_many = r"[Mỗi|Một] (\w+) có thể.*?(\w+(?:_\w+)*).*?nhiều (\w+)"
-        rela_name = r"Khi (\w+), phải biết (\w+(?:,\s?\w+)*)"
-        match_rela_name = re.findall(rela_name, paragraph)
-        match_many_many = re.findall(many_many, paragraph)
-        if len(match_many_many) != 0:
-            entity_1 = self.convert_name(match_many_many[0][0].strip())
-            entity_2 = self.convert_name(match_many_many[0][2].strip())
-            verb = self.convert_name(match_many_many[0][1].strip())
+        many_many_pattern = r"[Mỗi|Một] (\w+) có thể.*?(\w+(?:_\w+)*).*?nhiều (\w+)"
+        rela_name_pattern = r"Khi (\w+), phải biết (\w+(?:,\s?\w+)*)"
+        
+        match_many_many = re.findall(many_many_pattern, paragraph)
+        match_rela_name = re.findall(rela_name_pattern, paragraph)
+        
+        for match in match_many_many:
+            entity_1 = self.convert_name(match[0].strip())
+            entity_2 = self.convert_name(match[2].strip())
+            verb = self.convert_name(match[1].strip())
+
+            # Check if this pair has already been processed
+            if (entity_1, entity_2) in self.processed_pairs or (entity_2, entity_1) in self.processed_pairs:
+                continue
+
             key_attributes = {'': '', '': ''}
             attribute = []
-            if entity_1 == self.convert_name(match_many_many[1][2].strip()) and entity_2 == self.convert_name(match_many_many[1][0].strip()):
-                for i, entities in enumerate([entity_1, entity_2]):
-                    for ent, attrs in self.entities:
-                        if ent == entities:
-                            key_attribute = next((attr[2:] for attr in attrs if attr.startswith('*')), None)
-                            if key_attribute:
-                                key_attributes[i] = key_attribute
-                                attribute.append(key_attribute)
-                                break
-                if len(match_rela_name) == 1:
-                    table_rela_name = match_rela_name[0][0]
-                    attributes_to_add = match_rela_name[0][1].split(", ")
-                    attribute.extend(attributes_to_add)
 
-                for i in range(len(attribute)):
-                    if attribute[i] in key_attributes.values():
-                        attribute[i] = '- ' + attribute[i]
-                        self.attributeReference.append((attribute[i], entity_1 if attribute[i][2:] == key_attributes[0] else entity_2))
-                    else:
-                        attribute[i] = '+ ' + attribute[i]
-                if len(match_rela_name) == 1:
-                    self.entities.append((table_rela_name, [self.convert_name(attr) for attr in attribute]))
-                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(table_rela_name.lower()))}\n\n")
-                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_2.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(table_rela_name.lower()))}\n\n")
-                    #self.add_attribute_from_reference()
+            for i, entities in enumerate([entity_1, entity_2]):
+                for ent, attrs in self.entities:
+                    if ent == entities:
+                        key_attribute = next((attr[2:] for attr in attrs if attr.startswith('*')), None)
+                        if key_attribute:
+                            key_attributes[i] = key_attribute
+                            attribute.append(key_attribute)
+                            break
+
+            if len(match_rela_name) == 1:
+                table_rela_name = match_rela_name[0][0]
+                attributes_to_add = match_rela_name[0][1].split(", ")
+                attribute.extend(attributes_to_add)
+
+            for i in range(len(attribute)):
+                if attribute[i] in key_attributes.values():
+                    attribute[i] = '- ' + attribute[i]
+                    self.attributeReference.append((attribute[i], entity_1 if attribute[i][2:] == key_attributes[0] else entity_2))
                 else:
-                    self.entities.append((verb, [self.convert_name(attr) for attr in attribute]))
-                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(verb.lower()))}\n\n")
-                    self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_2.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(verb.lower()))}\n\n")
-                    #self.add_attribute_from_reference()
+                    attribute[i] = '+ ' + attribute[i]
+
+            if len(match_rela_name) == 1:
+                self.entities.append((table_rela_name, [self.convert_name(attr) for attr in attribute]))
+                self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(table_rela_name.lower()))}\n\n")
+                self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_2.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(table_rela_name.lower()))}\n\n")
+            else:
+                self.entities.append((verb, [self.convert_name(attr) for attr in attribute]))
+                self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(verb.lower()))}\n\n")
+                self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_2.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(verb.lower()))}\n\n")
+            # Mark this pair as processed
+            self.processed_pairs.add((entity_1, entity_2))
 
     def extract_information_text(self, sentences):
         for sentence in sentences:
