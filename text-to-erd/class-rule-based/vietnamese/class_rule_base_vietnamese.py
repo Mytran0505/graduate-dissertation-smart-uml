@@ -27,6 +27,7 @@ class UMLGenerator:
         self.entityReference = []
         self.entityReferenceOptional = []
         self.processed_pairs = set()
+        self.processed_rela_names = set()
 
     def convert_name(self, noun_chunk):
         common_noun_pattern = re.compile(r'\b(?:mỗi|một) \b', re.IGNORECASE)
@@ -155,7 +156,7 @@ class UMLGenerator:
             if (entity_1, entity_2) in self.processed_pairs or (entity_2, entity_1) in self.processed_pairs:
                 continue
 
-            key_attributes = {'': '', '': ''}
+            key_attributes = {}
             attribute = []
 
             for i, entities in enumerate([entity_1, entity_2]):
@@ -167,19 +168,25 @@ class UMLGenerator:
                             attribute.append(key_attribute)
                             break
 
-            if len(match_rela_name) == 1:
-                table_rela_name = match_rela_name[0][0]
-                attributes_to_add = match_rela_name[0][1].split(", ")
-                attribute.extend(attributes_to_add)
+            table_rela_name = None
+            attributes_to_add = []
+            for rela in match_rela_name:
+                if rela[0] not in self.processed_rela_names:
+                    table_rela_name = self.convert_name(rela[0].strip())
+                    attributes_to_add = rela[1].split(", ")
+                    self.processed_rela_names.add(table_rela_name)
+                    break
+
+            attribute.extend(attributes_to_add)
 
             for i in range(len(attribute)):
                 if attribute[i] in key_attributes.values():
                     attribute[i] = '- ' + attribute[i]
-                    self.attributeReference.append((attribute[i], entity_1 if attribute[i][2:] == key_attributes[0] else entity_2))
+                    self.attributeReference.append((attribute[i], entity_1 if attribute[i][2:] == key_attributes.get(0) else entity_2))
                 else:
                     attribute[i] = '+ ' + attribute[i]
 
-            if len(match_rela_name) == 1:
+            if table_rela_name:
                 self.entities.append((table_rela_name, [self.convert_name(attr) for attr in attribute]))
                 self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(table_rela_name.lower()))}\n\n")
                 self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_2.lower()))} |o--|{'{'} {self.convert_name(unidecode.unidecode(table_rela_name.lower()))}\n\n")
@@ -270,7 +277,7 @@ class UMLGenerator:
                     sql += '),\n'
                 elif attr[0] == '^':
                     referenced_entity_name, key_optional_attribute  = self.find_entities_and_optional_attribute(key.lower())
-                    sql += f'\t{attr_name} {attr_type},\n'
+                    sql += f'\t{attr_name} {attr_type} NULL,\n'
                     sql += f'\tCONSTRAINT FK_{entity_name}_{referenced_entity_name} FOREIGN KEY({attr_name}) REFERENCES {referenced_entity_name}('
                     sql += key_optional_attribute
                     sql += '),\n'
