@@ -1,0 +1,9 @@
+Mỗi khách_hàng được gán tên_khách_hàng, ngày_sinh, địa_chỉ, số_chứng_minh_nhân_dân. Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng.
+Mỗi loại_căn_hộ được xác định bởi duy nhất một mã_loại_căn_hộ, tên_căn_hộ, nhóm_chung_cư.
+Mỗi căn_hộ được xác định bởi duy nhất một mã_căn_hộ, tên_căn_hộ, diện_tích, vị_trí, số_phòng, giá.
+Mỗi loại_căn_hộ có nhiều căn_hộ.
+Mỗi hình_thức_trả_góp được xác định bởi duy nhất một mã_hình_thức, tên_hình_thức, phần_trăm_trả_trước, lãi_suất, kỳ_hạn.
+Mỗi trả_góp được xác định bởi duy nhất một mã_trả_góp, ngày_mua, số_tiền_trả_trước.
+Một khách_hàng có nhiều trả_góp.
+Mỗi căn_hộ có nhiều trả_góp.
+Một hình_thức_trả_góp có nhiều trả_góp.

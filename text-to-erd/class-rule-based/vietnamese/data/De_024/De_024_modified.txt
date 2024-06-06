@@ -1,0 +1,9 @@
+Mỗi học_viên được xác định bởi duy nhất một mã_học_viên, họ_tên, ngày_sinh, số_điện_thoại, loại_học_viên.
+Mỗi khóa_học được xác định bởi duy nhất một mã_khóa_học, tên_khóa_học, mức_độ, thời_lượng, ngày_bắt_đầu_khóa_học, ngày_kết_thúc_khóa_học.
+Mỗi khóa_học có nhiều học_phần.
+Mỗi học_phần được xác định bởi duy nhất một mã_học_phần, tên_học_phần, số_tuần_cần_thiết, bắt_buộc.
+Mỗi đăng_ký được xác định bởi duy nhất một mã_đăng_ký, ngày_đăng_ký, tình_trạng.
+Mỗi học_viên có nhiều đăng_ký.
+Một đăng_ký có thể chứa nhiều học_phần.
+Mỗi học_phần có thể được_chứa trong nhiều đăng_ký.
+Khi chi_tiết_đăng_ký, phải biết ngày_hoàn_thành, ngày_bắt_đầu_học_phần.

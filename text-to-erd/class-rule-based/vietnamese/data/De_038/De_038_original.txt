@@ -1,0 +1,10 @@
+Cho lược đồ cơ sở dữ liệu quản lý bán căn hộ trả góp như sau:
+Lược đồ quan hệ khách hàng mô tả cho những khách hàng đang được quản lý. Mỗi khách hàng được ghi nhận tên khách hàng, ngày sinh, địa chỉ, số chứng minh nhân dân và được ấn định một mã khách hàng duy nhất để theo dõi.
+Lược đồ quan hệ loại căn hộ mô tả thông tin phân loại của căn hộ. Thông tin loại căn hộ được ghi nhận bao gồm: mã loại căn hộ, tên loại căn hộ, nhóm chung cư.
+Lược đồ quan hệ căn hộ mô tả thông tin các căn hộ đang được bán tại dự án. Mỗi thông tin căn hộ sẽ bao gồm: mã căn hộ duy nhất, tên căn hộ, diện tích, vị trí, số phòng, giá.
+Mỗi loại căn hộ có nhiều căn hộ và một căn hộ chỉ thuộc một loại căn hộ.
+Lược đồ quan hệ hình thức trả góp mô tả hình thức trả góp mà dự án có hỗ trợ. Thông tin hình thức trả góp bao gồm: mã hình thức duy nhất, tên hình thức, phần trăm trả trước, lãi suất, kỳ hạn.
+Lược đồ trả góp mô tả thông tin bán trả góp căn hộ cho khách hàng. Thông tin trả góp bao gồm: mã trả góp duy nhất, ngày mua, số tiền trả trước.
+Một khách hàng sẽ có nhiều trả góp vì được phép mua trả góp nhiều căn hộ.
+Mỗi căn hộ cũng sẽ có nhiều trả góp.
+Mỗi trả góp sẽ thuộc một hình thứ trả góp cụ thể và một hình thức trả góp sẽ có nhiều trả góp.

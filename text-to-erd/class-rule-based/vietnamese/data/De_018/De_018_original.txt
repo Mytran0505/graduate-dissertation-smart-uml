@@ -1,0 +1,6 @@
+Người quản trị của một cửa hàng bán đồ trang trí Giáng sinh muốn quản lý các giao dịch mua bán, đã thiết kế một cơ sở dữ liệu quản lý cửa hàng bán đồ trang trí Giáng sinh như sau:
+Mỗi khách hàng khi đến mua hàng sẽ được ghi nhận các thông tin bao gồm một mã khách hàng duy nhất để phân biệt với các khách hàng khác. Ngoài ra, mỗi khách hàng còn được hệ thống lưu lại tên khách hàng, địa chỉ và loại khách hàng.
+Mỗi mặt hàng được lưu trong hệ thống có một mã mặt hàng duy nhất để quản lý và có thêm các thông tin như tên mặt hàng, xuất xứ, giá.
+Mỗi khách hàng khi thanh toán sẽ nhận được một hóa đơn. Một khách hàng có thể có nhiều hóa đơn.
+Mỗi hóa đơn có một số hóa đơn duy nhất để phân biệt với các hóa đơn khác, có ngày hóa đơn và số phần trăm giá được giảm trên tổng thành tiền của hóa đơn đó.
+Một hóa đơn có thể bao gồm danh sách nhiều mặt hàng. Một mặt hàng cũng có thể được ghi lại trong nhiều hóa đơn. Khi ghi lại thông tin của từng chi tiết hóa đơn, cần biết số lượng mặt hàng đã được mua.

@@ -1,0 +1,1 @@
+MaPK ở bảng ChuyenKhoa là khóa ngoại

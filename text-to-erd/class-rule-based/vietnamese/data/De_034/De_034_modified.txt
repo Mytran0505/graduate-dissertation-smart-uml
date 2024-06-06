@@ -1,0 +1,9 @@
+Mỗi bệnh_nhân được gán họ_tên, ngày_sinh, số_chứng_minh_nhân_dân, địa_chỉ, đối_tượng, số_lần_phẫu_thuật. Mỗi bệnh_nhân được xác định bởi duy nhất một mã_bệnh_nhân.
+Mỗi khám_bệnh được xác định bởi duy nhất một mã_khám_bệnh, bệnh_chính, bệnh_kèm_theo, thời_gian_bắt_đầu, thời_gian_kết_thúc, kết_luận, ngày_hẹn_tái_khám.
+Một bệnh_nhân có nhiều khám_bệnh.
+Mỗi phẫu_thuật được xác định bởi duy nhất một mã_phẫu_thuật, bộ_phận_phẫu_thuật, loại_phẫu_thuật, kết_quả.
+Một khám_bệnh có nhiều phẫu_thuật.
+Mỗi bác_sĩ được xác định bởi duy nhất một mã_bác_sĩ, họ_tên, năm_sinh, chuyên_môn, khoa, bệnh_viện.
+Một bác_sĩ có thể phụ_trách nhiều khám_bệnh.
+Một khám_bệnh có thể được_phụ_trách bởi nhiều bác_sĩ.
+Khi phụ_trách, phải biết thời_điểm_bắt_đầu_phụ_trách, thời_điểm_kết_thúc_phụ_trách.

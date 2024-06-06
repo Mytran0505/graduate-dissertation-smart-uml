@@ -1,0 +1,8 @@
+Cho lược đồ cơ sở dữ liệu Quản lý Xe của hãng xe Honda gồm các quan hệ như sau:  
+Mỗi xe có một mã xe duy nhất để phân biệt với các xe khác, có số khung, số máy, màu.
+Mỗi bảng giá được xác định bởi một kiểu xe duy nhất và có giá bán.
+Một bảng giá được áp dụng cho nhiều xe.
+Mỗi khách hành có các thông tin gồm mã khách hàng duy nhất, tên khách hàng, thành phố, số điện thoại, loại khách hàng.
+Khách hàng khi đến mua xe sẽ được lập hóa đơn. Một khách hàng có thể mua nhiều lần nên sẽ có nhiều hóa đơn.
+Mỗi hóa đơn được xác định bởi một số hóa đơn duy nhất, có ngày bán.
+Khách hàng có thể mua nhiều xe trong một lần nên một hóa đơn có thể chứa nhiều xe.

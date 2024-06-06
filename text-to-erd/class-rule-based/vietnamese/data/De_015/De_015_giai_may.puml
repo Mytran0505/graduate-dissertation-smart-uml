@@ -1,0 +1,33 @@
+@startuml
+
+entity "phong_kham" as phong_kham {
+ * ma_phong_kham
+ + ten_phong_kham
+}
+
+entity "benh_nhan" as benh_nhan {
+ * ma_benh_nhan
+ + ten_benh_nhan
+ + ngay_sinh
+ + so_dien_thoai
+ + gioi_tinh
+}
+
+entity "bac_si" as bac_si {
+ * ma_bac_si
+ + ten_bac_si
+}
+
+entity "kham_benh" as kham_benh {
+ * ma_kham_benh
+ + ngay_kham
+ + ket_luan
+}
+
+phong_kham ||--o| bac_si
+
+benh_nhan |o--|{ kham_benh
+
+bac_si |o--|{ kham_benh
+
+@enduml

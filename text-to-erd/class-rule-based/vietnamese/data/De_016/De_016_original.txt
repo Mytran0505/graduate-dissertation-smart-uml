@@ -1,0 +1,6 @@
+Một cơ sở dữ liệu quản lý học phần được thiết kế như sau:
+Mỗi sinh viên gồm một mã sinh viên duy nhất để phân biệt với các sinh viên khác, có họ tên sinh viên, giới tính, địa chỉ, điện thoại và khoa mà sinh viên đăng ký học.
+Mỗi môn học gồm mã môn học duy nhất và tên môn học, số tín chỉ.
+Một môn học được dạy trong nhiều khóa học và một khóa học được mở để giảng dạy một môn học cụ thể.
+Mỗi khóa học có một mã khóa học duy nhất để phân biệt với các khóa học khác, có họ tên giảng viên, học kỳ, năm học, ngày bắt đầu khóa học và ngày kết thúc khóa học.
+Một sinh viên có thể đăng ký học nhiều khóa học và một khóa học cũng cho phép nhiều sinh viên đăng ký. Sau khi hoàn thành khóa học thì mỗi sinh viên sẽ phải tham gia thi để ghi nhận kết quả thi gồm điểm và ngày thi.

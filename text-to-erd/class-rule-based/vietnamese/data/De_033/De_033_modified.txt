@@ -1,0 +1,9 @@
+Mỗi mặt_hàng được xác định bởi duy nhất một mã_mặt_hàng, tên_mặt_hàng, đơn_vị_tính, nước_sản_xuất.
+Mỗi nhà_cung_cấp được xác định bởi duy nhất một mã_nhà_cung_cấp, tên_nhà_cung_cấp, địa_chỉ_nhà_cung_cấp.
+Một nhà_cung_cấp có thể cung_cấp cho nhiều mặt_hàng.
+Một mặt_hàng có thể được_cung_cấp bởi nhiều nhà_cung_cấp.
+Khi cung_cấp, phải biết ngày_bắt_đầu_cung_cấp.
+Mỗi đơn_đặt_hàng được xác định bởi duy nhất một mã_đơn_hàng, ngày_đặt_hàng, trị_giá, số_mặt_hàng.
+Một đơn_đặt_hàng có thể chứa nhiều mặt_hàng.
+Một mặt_hàng có thể có trong nhiều đơn_đặt_hàng.
+Khi chi_tiết, phải biết số_lượng, đơn_giá, thành_tiền.

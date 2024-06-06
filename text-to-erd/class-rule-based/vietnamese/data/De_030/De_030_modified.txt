@@ -1,0 +1,9 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, họ_tên_khách_hàng, số_điện_thoại.
+Mỗi nhà_xe được xác định bởi duy nhất một mã_nhà_xe, tên_nhà_xe, địa_chỉ.
+Một nhà_xe có nhiều xe.
+Mỗi xe được xác định bởi duy nhất một biển_số_xe. Mỗi xe được gán tên_xe, số_lượng_chỗ.
+Một loại_xe có nhiều xe.
+Mỗi loại_xe được xác định bởi duy nhất một mã_loại, tên_loại.
+Một khách_hàng có thể gọi_đặt_chỗ cho nhiều xe.
+Một xe có thể được_đặt_chỗ bởi nhiều khách_hàng.
+Khi gọi_đặt_chỗ, phải biết thời_gian_đặt_chỗ.

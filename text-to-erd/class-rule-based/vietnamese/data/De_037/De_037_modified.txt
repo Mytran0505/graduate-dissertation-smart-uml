@@ -1,0 +1,9 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, họ_tên, ngày_sinh, địa_chỉ, số_điện_thoại, chứng_minh_nhân_dân.
+Mỗi loại_tài_khoản được xác định bởi duy nhất một mã_loại_tài_khoản, tên_loại_tài_khoản, mô_tả.
+Mỗi tài_khoản được xác định bởi duy nhất một số_tài_khoản, ngày_mở, số_dư, lãi_suất, trạng_thái.
+Một khách_hàng có nhiều tài_khoản.
+Một loại_tài_khoản có nhiều tài_khoản.
+Mỗi loại_giao_dịch được xác định bởi duy nhất một mã_loại_giao_dịch, tên_loại_giao_dịch, mô_tả.
+Mỗi giao_dịch được xác định bởi duy nhất một mã_giao_dịch, ngày_giao_dịch, số_tiền, nội_dung.
+Một tài_khoản có nhiều giao_dịch.
+Một loại_giao_dịch có nhiều giao_dịch.

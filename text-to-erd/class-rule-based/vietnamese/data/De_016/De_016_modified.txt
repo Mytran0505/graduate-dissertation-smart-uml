@@ -1,0 +1,7 @@
+Mỗi sinh_viên được xác định bởi duy nhất một mã_sinh_viên, họ_tên_sinh_viên, giới_tính, địa_chỉ, điện_thoại, khoa.
+Mỗi môn_học được xác định bởi duy nhất một mã_môn_học, tên_môn_học, số_tín_chỉ.
+Mỗi môn_học có nhiều khóa_học.
+Mỗi khóa_học được xác định bởi duy nhất một mã_khóa_học, họ_tên_giảng_viên, học_kỳ, năm_học, ngày_bắt_đầu, ngày_kết_thúc.
+Một sinh_viên có thể đăng_ký học nhiều khóa_học.
+Một khóa_học có thể được_đăng_ký bởi nhiều sinh_viên.
+Khi kết_quả_thi, phải biết điểm, ngày_thi.

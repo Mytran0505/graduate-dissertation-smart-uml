@@ -1,0 +1,7 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng. Mỗi khách_hàng được gán tên_khách_hàng, địa_chỉ, loại_khách_hàng.
+Mỗi mặt_hàng được xác định bởi duy nhất một mã_mặt_hàng, tên_mặt_hàng, xuất_xứ, giá.
+Một khách_hàng có nhiều hóa_đơn.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, ngày_hóa_đơn, số_phần_trăm_giá_được_giảm.
+Một hóa_đơn có thể bao_gồm danh sách nhiều mặt_hàng.
+Một mặt_hàng có thể được_ghi_lại trong nhiều hóa_đơn.
+Khi chi_tiết_hóa_đơn, phải biết số_lượng_mặt_hàng.

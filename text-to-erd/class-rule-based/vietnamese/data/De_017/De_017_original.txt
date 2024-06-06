@@ -1,0 +1,8 @@
+Một website học lập trình online muốn quản lý thành viên và quá trình giải bài tập của các thành viên đã thiết kế một cơ sở dữ liệu để quản lý như sau:
+Mỗi thành viên có một mã thành viên duy nhất để phân biệt với các thành viên khác, có tên thành viên, thứ hạng, loại thành viên, ngày đăng ký.
+Mỗi bài tập có các thông tin gồm một mã bài tập duy nhất và tên bài tập.
+Mỗi độ khó có các thông tin gồm một mã độ khó duy nhất và điểm độ khó.
+Một độ khó có thể dùng để mô tả mức độ khó của nhiều bài tập. Một bài tập chỉ được áp dụng một độ khó cụ thể.
+Sau khi làm xong bài tập, các thành viên sẽ thực hiện nộp bài tập lên hệ thống.
+Thông tin nộp bài bao gồm mã bài nộp duy nhất để phân biệt với các bài nộp khác, có ngày nộp và điểm hệ thống.
+Một thành viên được phép nộp bài nhiều lần nên sẽ có nhiều thông tin nộp bài. Một bài tập cũng được nộp nhiều lần nên cũng sẽ có nhiều thông tin nộp bài.

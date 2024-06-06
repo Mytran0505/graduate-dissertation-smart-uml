@@ -1,0 +1,9 @@
+Mỗi khách_hàng được gán tên_khách_hàng, ngày_sinh, địa_chỉ, số_chứng_minh_nhân_dân. Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng.
+Mỗi loại_xe được xác định bởi duy nhất một mã_loại_xe, tên_loại_xe, công_nghệ_động_cơ.
+Một loại_xe có nhiều xe_máy.
+Mỗi xe_máy được xác định bởi duy nhất một mã_xe_máy, tên_xe_máy, năm_sản_xuất, trọng_lượng_xe, giá_bán.
+Mỗi loại_hình_trả_góp được xác định bởi duy nhất một mã_loại_hình, tên_loại_hình, phần_trăm_trả_trước, kỳ_hạn, lãi_suất, phí_thu_hộ.
+Một loại_hình_trả_góp có nhiều trả_góp.
+Mỗi trả_góp được xác định bởi duy nhất một mã_trả_góp, ngày_mua, số_tiền_trả_trước.
+Một khách_hàng có nhiều trả_góp.
+Một xe_máy có nhiều trả_góp.

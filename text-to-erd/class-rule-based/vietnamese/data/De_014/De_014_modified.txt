@@ -1,0 +1,7 @@
+Mỗi xe được xác định bởi duy nhất một mã_xe, giá_thuê_theo_ngày, tình_trạng, ngày_bắt_đầu_cho_thuê.
+Một loại_xe có nhiều xe.
+Mỗi loại_xe được xác định bởi duy nhất một mã_loại_xe, tên_loại_xe, số_chỗ.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng, tuổi, giới_tính, số_chứng_minh_nhân_dân.
+Mỗi hợp_đồng_thuê_xe được xác định bởi duy nhất một mã_hợp_đồng, ngày_thuê, ngày_trả.
+Một khách_hàng có nhiều hợp_đồng_thuê_xe.
+Một xe có nhiều hợp_đồng_thuê_xe.

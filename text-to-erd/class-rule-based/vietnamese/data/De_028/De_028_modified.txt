@@ -1,0 +1,9 @@
+Mỗi tòa_nhà được xác định bởi duy nhất một mã_tòa_nhà, tên_tòa_nhà, số_tầng.
+Mỗi tòa_nhà có nhiều tầng.
+Mỗi tầng được gán tên_tầng, số_lượng_căn_hộ. Mỗi tầng được xác định bởi duy nhất một mã_tầng.
+Mỗi loại_dụng_cụ được gán tên_loại_dụng_cụ, mô_tả_loại_dụng_cụ. Mỗi loại_dụng_cụ được xác định bởi duy nhất một mã_loại_dụng_cụ.
+Mỗi nhà_sản_xuất có nhiều loại_dụng_cụ.
+Mỗi nhà_sản_xuất được xác định bởi duy nhất một mã_nhà_sản_xuất, tên_nhà_sản_xuất, địa_chỉ.
+Một loại_dụng_cụ có thể được_bố_trí tại nhiều tầng.
+Một tầng có thể bố_trí nhiều loại_dụng_cụ.
+Khi bố_trí, phải biết số_lượng.

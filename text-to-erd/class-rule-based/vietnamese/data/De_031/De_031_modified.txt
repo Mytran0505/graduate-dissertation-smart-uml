@@ -1,0 +1,9 @@
+Mỗi thành_viên được gán tên_thành_viên, ngày_tham_gia, cấp_bậc, ngày_truy_cập_gần_nhất. Mỗi thành_viên được xác định bởi duy nhất một mã_thành_viên.
+Mỗi bài_viết được gán tiêu_đề, nội_dung, ngày_đăng, số_lượt_yêu_thích. Mỗi bài_viết được xác định bởi duy nhất một mã_bài_viết.
+Một thành_viên có nhiều bài_viết.
+Mỗi chủ_đề được xác định bởi duy nhất một mã_chủ_đề, tên_chủ_đề, mô_tả.
+Một chủ_đề có thể có cha là một chủ_đề khác.
+Một bài_viết có thể thuộc nhiều chủ_đề.
+Một chủ_đề có thể chứa nhiều bài_viết.
+Mỗi bình_luận được gán nội_dung_bình_luận, thời_gian_bình_luận. Mỗi bình_luận được xác định bởi duy nhất một mã_bình_luận.
+Mỗi bài_viết có nhiều bình_luận. Mỗi thành_viên có nhiều bình_luận.

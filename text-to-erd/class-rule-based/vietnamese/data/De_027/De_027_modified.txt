@@ -1,0 +1,7 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_tên, ngày_sinh, ngày_vào_làm.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng, ngày_sinh, giới_tính.
+Mỗi hợp_đồng được xác định bởi duy nhất một số_hợp_đồng, ngày_ký, số_điện_kế, số_kw_định_mức, đơn_giá_kw.
+Một khách_hàng có nhiều hợp_đồng.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, tháng, năm, số_tiền.
+Một hợp_đồng có nhiều hóa_đơn.
+Một nhân_viên có nhiều hóa_đơn.

@@ -1,0 +1,7 @@
+Người quản trị của một công ty chuyên mua bán dược phẩm muốn quản lý các giao dịch nhập xuất, đã thiết kế một cơ sở dữ liệu quản lý nhập xuất dược phẩm như sau:
+Mỗi nhà cung cấp sẽ được lưu vào hệ thống với các thông tin: mã nhà cung cấp duy nhất, tên nhà cung cấp, quốc gia, loại nhà cung cấp.
+Mỗi dược phẩm có một mã dược phẩm duy nhất để phân biệt với các dược phẩm khác, có tên dược phẩm, loại dược phẩm, giá.
+Các nhà cung cấp khi đến cung cấp dược phẩm sẽ được ghi nhận thông tin vào phiếu nhập.
+Mỗi phiếu nhập có các thông tin gồm số phiếu nhập duy nhất, ngày nhập, loại nhập.
+Một nhà cung cấp có thể nhập dược phẩm nhiều lần nên sẽ có nhiều phiếu nhập.
+Một phiếu nhập có thể có nhiều dược phẩm và một dược phẩm cũng có thể được ghi lại trong nhiều phiếu nhập. Khi thực hiện ghi lại chi tiết phiếu nhập, cần phải biết số lượng nhập của dược phẩm.

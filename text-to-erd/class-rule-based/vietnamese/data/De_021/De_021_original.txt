@@ -1,0 +1,6 @@
+Người quản lý của một cửa hàng bán cây cảnh trang trí muốn quản lý các giao dịch mua bán, đã thiết kế một cơ sở dữ liệu quản lý cửa hàng bán cây cảnh trang trí như sau:
+Mỗi khách hàng có một mã khách hàng duy nhất để phân biệt với các khách hàng khác, có tên khách hàng, địa chỉ, loại khách hàng.
+Mỗi loại cây có một mã loại cây duy nhất, có tên loại cây, xuất xứ, giá.
+Mỗi khách hàng khi đến mua cây cảnh sẽ được lập một hóa đơn. Vì một khách hàng có thể đến mua nhiều lần nên một khách hàng sẽ có nhiều hóa đơn.
+Mỗi hóa đơn sẽ được ghi nhận các thông tin gồm số hóa đơn duy nhất, ngày hóa đơn, số phần trăm giá được giảm trên tổng thành tiền.
+Một hóa đơn có thể chứa nhiều loại cây. Một loại cây cũng có thể được chứa trong nhiều hóa đơn. Trong chi tiết hóa đơn, cần ghi lại số lượng mua.

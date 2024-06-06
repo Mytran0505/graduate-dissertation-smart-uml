@@ -1,0 +1,36 @@
+@startuml
+
+entity "xe" as xe {
+ * ma_xe
+ + gia_thue_theo_ngay
+ + tinh_trang
+ + ngay_bat_dau_cho_thue
+}
+
+entity "loai_xe" as loai_xe {
+ * ma_loai_xe
+ + ten_loai_xe
+ + so_cho
+}
+
+entity "khach_hang" as khach_hang {
+ * ma_khach_hang
+ + ten_khach_hang
+ + tuoi
+ + gioi_tinh
+ + so_chung_minh_nhan_dan
+}
+
+entity "hop_dong_thue_xe" as hop_dong_thue_xe {
+ * ma_hop_dong
+ + ngay_thue
+ + ngay_tra
+}
+
+loai_xe |o--|{ xe
+
+khach_hang |o--|{ hop_dong_thue_xe
+
+xe |o--|{ hop_dong_thue_xe
+
+@enduml

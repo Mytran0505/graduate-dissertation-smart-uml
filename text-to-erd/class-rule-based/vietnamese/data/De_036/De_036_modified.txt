@@ -1,0 +1,7 @@
+Mỗi xe được xác định bởi duy nhất một mã_xe, số_khung, số_máy, màu.
+Mỗi bảng_giá được xác định bởi duy nhất một kiểu_xe, giá_bán.
+Một bảng_giá có nhiều xe.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng, thành_phố, số_điện_thoại, loại_khách_hàng.
+Một khách_hàng có nhiều hóa_đơn.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, ngày_bán.
+Một hóa_đơn có nhiều xe.

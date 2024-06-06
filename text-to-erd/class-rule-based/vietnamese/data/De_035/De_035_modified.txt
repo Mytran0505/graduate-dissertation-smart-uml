@@ -1,0 +1,9 @@
+Mỗi thành_viên được xác định bởi duy nhất một mã_thành_viên, họ_tên, ngày_sinh, giới_tính, điện_thoại, quận, loại_thành_viên.
+Mỗi phim được xác định bởi duy nhất một mã_phim, tên_phim, năm_sản_xuất, thể_loại, thời_lượng, tình_trạng, số_lượt_xem.
+Mỗi rạp_phim được xác định bởi duy nhất một mã_rạp_phim, tên_rạp_phim, số_lượng_vé_đã_bán, địa_chỉ, thành_phố.
+Mỗi lịch_chiếu được xác định bởi duy nhất một mã_lịch_chiếu, phòng_chiếu, suất_chiếu, sức_chứa, ngày_bắt_đầu_lịch_chiếu, ngày_kết_thúc_lịch_chiếu.
+Một phim có nhiều lịch_chiếu.
+Một rạp_phim có nhiều lịch_chiếu.
+Mỗi vé được xác định bởi duy nhất một mã_vé, ngày_mua, loại_vé, giá_tiền.
+Một thành_viên có nhiều vé.
+Một lịch_chiếu có nhiều vé.

@@ -1,0 +1,8 @@
+Một công ty cho thuê xe du lịch muốn quản lý việc thuê xe của khách hàng cũng như các xe hiện có, đã xây dựng một cơ sở dữ liệu như sau:
+Mỗi xe có mã xe duy nhất để phân biệt với các xe khác, có giá thuê theo ngày, tình trạng và ngày bắt đầu cho thuê.
+Mỗi xe thuộc một loại xe và một loại xe có thể có nhiều xe.
+Mỗi loại xe có mã loại xe duy nhất, có tên loại xe và số chỗ.
+Mỗi khách hàng có mã khách hàng duy nhất, có tên khách hàng, tuổi, giới tính và số chứng minh nhân dân.
+Khi thuê xe, một bản hợp đồng thuê xe sẽ được lập ra để lưu trữ thông tin.
+Một hợp đồng thuê xe gồm có mã hợp đồng duy nhất để phân biệt với các hợp đồng khác, có ngày thuê và ngày trả.
+Một khách hàng được phép thuê xe nhiều lần nên sẽ có nhiều hợp đồng thuê xe. Một xe cũng có thể được thuê nhiều lần nên cũng sẽ được ghi nhận trong nhiều hợp đồng thuê xe.

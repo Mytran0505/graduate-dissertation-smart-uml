@@ -6,7 +6,7 @@ if __name__ == "__main__":
     os.makedirs(puml_output_directory, exist_ok=True)  # Create export directory if it doesn't exist
     sql_output_directory = f"export/sql/rule-based-solution"
     os.makedirs(sql_output_directory, exist_ok=True)  # Create export directory if it doesn't exist
-    for root, dirs, files in os.walk('data'):
+    for root, dirs, files in os.walk('data/De_032'):
         uml_generator = UMLGenerator()
         modified_file = None
         for file in files:

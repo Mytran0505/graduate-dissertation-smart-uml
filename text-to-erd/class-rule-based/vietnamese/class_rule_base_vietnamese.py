@@ -83,7 +83,7 @@ class UMLGenerator:
         self.relationships.append(f"{self.convert_name(unidecode.unidecode(entity_1.lower()))} ||--o| {self.convert_name(unidecode.unidecode(entity_2.lower()))}\n\n")
 
     def self_entity_relationship_entity_match(self, sentence):
-        entity_has_entity_5 = r"(Mỗi|Một) (\w+(?:\s(?!chỉ\s)\w+)*) (?:bị|chỉ được|được) .*?(\w+(?:_\w+)*).*?(?:bởi một|cho một) (\w+(?:\s\w+)*) khác"
+        entity_has_entity_5 = r"(Mỗi|Một) (\w+(?:\s(?!chỉ\s)\w+)*) (?:bị|chỉ được|được|có thể có) .*?(\w+(?:_\w+)*).*?(?:bởi|cho|là) một (\w+(?:\s\w+)*) khác"
         ehe5_matches = re.findall(entity_has_entity_5, sentence)
         return ehe5_matches
 

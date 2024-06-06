@@ -1,0 +1,48 @@
+@startuml
+
+entity "khach_hang" as khach_hang {
+ * ma_khach_hang
+ + ten_khach_hang
+ + ngay_sinh
+ + dia_chi
+ + so_chung_minh_nhan_dan
+}
+
+entity "loai_xe" as loai_xe {
+ * ma_loai_xe
+ + ten_loai_xe
+ + cong_nghe_dong_co
+}
+
+entity "xe_may" as xe_may {
+ * ma_xe_may
+ + ten_xe_may
+ + nam_san_xuat
+ + trong_luong_xe
+ + gia_ban
+}
+
+entity "loai_hinh_tra_gop" as loai_hinh_tra_gop {
+ * ma_loai_hinh
+ + ten_loai_hinh
+ + phan_tram_tra_truoc
+ + ky_han
+ + lai_suat
+ + phi_thu_ho
+}
+
+entity "tra_gop" as tra_gop {
+ * ma_tra_gop
+ + ngay_mua
+ + so_tien_tra_truoc
+}
+
+loai_xe |o--|{ xe_may
+
+loai_hinh_tra_gop |o--|{ tra_gop
+
+khach_hang |o--|{ tra_gop
+
+xe_may |o--|{ tra_gop
+
+@enduml

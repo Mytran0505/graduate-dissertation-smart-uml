@@ -1,0 +1,9 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên. Mỗi nhân_viên được gán họ_tên, ngày_sinh, số_chứng_minh_nhân_dân, ca_làm_việc, mức_lương.
+Mỗi sảnh được xác định bởi duy nhất một mã_sảnh, tên_sảnh, loại_bàn, sức_chứa.
+Mỗi loại_tiệc được xác định bởi duy nhất một mã_loại_tiệc, tên_loại_tiệc, yêu_cầu_số_bàn_tối_thiểu.
+Mỗi tiệc được xác định bởi duy nhất một mã_tiệc, chủ_tiệc, số_bàn, giá, thời_gian_bắt_đầu, thời_gian_kết_thúc.
+Một sảnh có nhiều tiệc.
+Một loại_tiệc có nhiều tiệc.
+Một nhân_viên có thể phục_vụ nhiều tiệc.
+Một tiệc có thể được_phục_vụ bởi nhiều nhân_viên.
+Khi phục_vụ, phải biết thời_gian_phục_vụ.

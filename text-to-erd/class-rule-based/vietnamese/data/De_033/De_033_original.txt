@@ -1,0 +1,6 @@
+Cho lược đồ cơ sở dữ liệu Quản lý đơn đặt hàng có cấu trúc như sau:
+Quan hệ mặt hàng chứa thông tin về các mặt hàng. Thông tin mặt hàng gồm có: mã mặt hàng duy nhất, tên mặt hàng, đơn vị tính và nước sản xuất.
+Quan hệ nhà cung cấp chứa thông tin về các nhà cung cấp. Thông nhà cung cấp gồm có: mã nhà cung cấp duy nhất, tên nhà cung cấp và địa chỉ nhà cung cấp.
+Một nhà cung cấp có thể cung cấp nhiều mặt hàng và một mặt hàng cũng có thể được cung cấp bởi nhiều nhà cung cấp. Khi cung cấp, cần ghi lại ngày bắt đầu cung cấp.
+Quan hệ đơn đặt hàng chứa thông tin về các đơn đặt hàng. Thông tin đơn đặt hàng gồm có: mã đơn hàng duy nhất, ngày đặt hàng, trị giá, số mặt hàng. Khi thêm mới đơn đặt hàng thì trị giá và số mặt hàng sẽ được gán giá trị mặc định là 0.
+Một đơn đặt hàng có thể chứa nhiều mặt hàng. Một mặt hàng cũng có thể có trong nhiều đơn đặt hàng. Khi ghi lại chi tiết, cần biết số lượng, đơn giá và thành tiền.

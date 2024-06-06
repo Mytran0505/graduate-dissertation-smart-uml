@@ -1,0 +1,38 @@
+@startuml
+
+entity "sinh_vien" as sinh_vien {
+ * ma_sinh_vien
+ + ho_ten_sinh_vien
+ + gioi_tinh
+ + dia_chi
+ + dien_thoai
+ + khoa
+}
+
+entity "mon_hoc" as mon_hoc {
+ * ma_mon_hoc
+ + ten_mon_hoc
+ + so_tin_chi
+}
+
+entity "khoa_hoc" as khoa_hoc {
+ * ma_khoa_hoc
+ + ho_ten_giang_vien
+ + hoc_ky
+ + nam_hoc
+ + ngay_bat_dau
+ + ngay_ket_thuc
+}
+
+entity "ket_qua_thi" as ket_qua_thi {
+ + diem
+ + ngay_thi
+}
+
+mon_hoc |o--|{ khoa_hoc
+
+sinh_vien |o--|{ ket_qua_thi
+
+khoa_hoc |o--|{ ket_qua_thi
+
+@enduml

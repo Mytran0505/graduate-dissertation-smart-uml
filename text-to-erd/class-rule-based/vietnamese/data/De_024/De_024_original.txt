@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu quản lý website đăng ký học phần online như sau:
+Lược đồ quan hệ học viên mô tả thông tin học viên. Mỗi học viên được cấp một mã học viên để phân biệt, có họ tên, ngày sinh, số điện thoại, loại học viên.
+Lược đồ quan hệ khóa học lưu trữ thông tin các khóa học đang được mở trên website. Mỗi khóa học có các thông tin bao gồm: mã khóa học duy nhất, tên khóa học, mức độ của khóa học, thời lượng của khóa học tính bằng đơn vị tuần, ngày bắt đầu khóa học, ngày kết thúc khóa học.
+Mỗi khóa học sẽ có nhiều học phần.
+Lược đồ quan hệ học phần lưu trữ thông tin các học phần trong một khóa học. Mỗi học phần có mã học phần duy nhất để phân biệt với các học phần khác, có tên học phần, số tuần cần thiết để hoàn thành học phần và thông tin học phần đó có bắt buộc trong khóa học hay không. Thuộc tính bắt buộc có giá trị là: 1 nếu bắt buộc, 0 nếu không bắt buộc.
+Lược đồ quan hệ đăng ký lưu trữ thông tin đăng ký học phần của học viên. Thông tin đăng ký này bao gồm: mã đăng ký duy nhất, ngày đăng ký và tình trạng thanh toán học phí. Thuộc tính tình trạng có giá trị là 1 nếu đã thanh toán học phí, 0 nếu chưa thanh toán học phí.
+Mỗi học viên sẽ có thể có nhiều lần đăng ký.
+Một lần đăng ký có thể chứa nhiều học phần và một học phần cũng có thể được chứa trong nhiều đăng ký.
+Khi lưu trữ chi tiết đăng ký, cần ghi lại số ngày hoàn thành và ngày bắt đầu học phần.

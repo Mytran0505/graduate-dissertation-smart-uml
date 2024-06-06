@@ -1,0 +1,9 @@
+Mỗi nhà_vườn được xác định bởi duy nhất một mã_nhà_vườn, họ_tên_người_đại_diện, số_điện_thoại, địa_chỉ_liên_hệ.
+Mỗi sản_phẩm được xác định bởi duy nhất một mã_sản_phẩm, tên_sản_phẩm, đơn_vị_tính, thể_loại, giá_nhập, giá_bán.
+Một nhà_vườn có nhiều sản_phẩm.
+Mỗi đơn_hàng được xác định bởi duy nhất một mã_đơn_hàng, ngày_bán, tông_tiền, số_tiền_đã_thanh_toán.
+Một đơn_hàng có thể bao_gồm nhiều sản_phẩm.
+Một sản_phẩm có thể được_liệt_kê trong nhiều đơn_hàng.
+Khi chi_tiết_đơn_hàng, phải biết số_lượng_sản_phẩm.
+Mỗi giao_hàng được xác định bởi duy nhất một mã_giao_hàng, ngày_giao, người_giao, số_điện_thoại_người_giao, người_nhận, số_điện_thoại_người_nhận, địa_chỉ_người_nhận, phí_ship, số_tiền, trạng_thái_giao_hàng.
+Mỗi giao_hàng chỉ có duy nhất một đơn_hàng được_giao.

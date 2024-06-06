@@ -1,0 +1,7 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng, địa_chỉ, loại_khách_hàng.
+Mỗi loại_cây được xác định bởi duy nhất một mã_loại_cây, tên_loại_cây, xuất_xứ, giá.
+Một khách_hàng có nhiều hóa_đơn.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, ngày_hóa_đơn, số_phần_trăm_giá_được_giảm.
+Một hóa_đơn có thể chứa nhiều loại_cây.
+Một loại_cây có thể được_chứa trong nhiều hóa_đơn.
+Khi chi_tiết_hóa_đơn, phải biết số_lượng_mua.

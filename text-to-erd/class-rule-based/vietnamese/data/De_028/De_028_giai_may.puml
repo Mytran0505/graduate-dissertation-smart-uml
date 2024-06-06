@@ -1,0 +1,39 @@
+@startuml
+
+entity "toa_nha" as toa_nha {
+ * ma_toa_nha
+ + ten_toa_nha
+ + so_tang
+}
+
+entity "tang" as tang {
+ * ma_tang
+ + ten_tang
+ + so_luong_can_ho
+}
+
+entity "loai_dung_cu" as loai_dung_cu {
+ * ma_loai_dung_cu
+ + ten_loai_dung_cu
+ + mo_ta_loai_dung_cu
+}
+
+entity "nha_san_xuat" as nha_san_xuat {
+ * ma_nha_san_xuat
+ + ten_nha_san_xuat
+ + dia_chi
+}
+
+entity "bo_tri" as bo_tri {
+ + so_luong
+}
+
+toa_nha |o--|{ tang
+
+nha_san_xuat |o--|{ loai_dung_cu
+
+loai_dung_cu |o--|{ bo_tri
+
+tang |o--|{ bo_tri
+
+@enduml

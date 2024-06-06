@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu Quản lý hệ thống rạp chiếu phim Galaxy có cấu trúc như sau:
+Bảng thành viên lưu trữ thông tin của một thành viên, bao gồm: mã thành viên duy nhất, họ tên, ngày sinh, giới tính, điện thoại, quận, loại thành viên.
+Bảng phim chứa các thông tin bộ phim, bao gồm: mã phim duy nhất, tên phim, năm sản xuất, thể loại, thời lượng, tình trạng, số lượt xem.
+Bảng rạp phim lưu trữ thông tin của một rạp, bao gồm: mã rạp phim duy nhất, tên rạp phim, số lượng vé đã bán, địa chỉ, thành phố.
+Bảng lịch chiếu chứa các thông tin lịch chiếu phim, bao gồm: mã lịch chiếu duy nhất, phòng chiếu, suất chiếu, sức chứa, ngày bắt đầu lịch chiếu, ngày kết thúc lịch chiếu.
+Một phim có nhiều lịch chiếu.
+Một rạp phim cũng có nhiều lịch chiếu.
+Bảng vé lưu trữ thông tin bán vé, bao gồm: mã vé duy nhất, ngày mua, loại vé, giá tiền.
+Một thành viên có thể xem phim nhiều lần nên có thể mua nhiều vé. Trong thời gian chiếu, một lịch chiếu cũng chiếu phim nhiều lần nên cũng có nhiều vé.

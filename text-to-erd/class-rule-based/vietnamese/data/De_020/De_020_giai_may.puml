@@ -1,0 +1,33 @@
+@startuml
+
+entity "nha_cung_cap" as nha_cung_cap {
+ * ma_nha_cung_cap
+ + ten_nha_cung_cap
+ + quoc_gia
+ + loai_nha_cung_cap
+}
+
+entity "duoc_pham" as duoc_pham {
+ * ma_duoc_pham
+ + ten_duoc_pham
+ + loai_duoc_pham
+ + gia
+}
+
+entity "phieu_nhap" as phieu_nhap {
+ * so_phieu_nhap
+ + ngay_nhap
+ + loai_nhap
+}
+
+entity "chi_tiet_phieu_nhap" as chi_tiet_phieu_nhap {
+ + so_luong_nhap
+}
+
+nha_cung_cap |o--|{ phieu_nhap
+
+phieu_nhap |o--|{ chi_tiet_phieu_nhap
+
+duoc_pham |o--|{ chi_tiet_phieu_nhap
+
+@enduml

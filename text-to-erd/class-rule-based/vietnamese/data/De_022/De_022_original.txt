@@ -1,0 +1,7 @@
+Cơ sở dữ liệu quản lý bán hàng gồm có các quan hệ sau:
+Mỗi khách hàng có một mã khách hàng định danh duy nhất. Ngoài ra, khách hàng còn được ghi nhận thêm các thông tin bao gồm: họ tên, địa chỉ, số điện thoại, ngày sinh, doanh số, ngày đăng ký.
+Mỗi nhân viên cần ghi nhận các thông tin: họ tên, số điện thoại, ngày vào làm. Mỗi nhân viên phân biệt với nhau bằng mã nhân viên duy nhất.
+Mỗi sản phẩm có một mã sản phẩm để phân biệt với các sản phẩm khác, có tên sản phẩm, đơn vị tính, nước sản xuất, giá.
+Mỗi hóa đơn có một số hóa đơn duy nhất, có ngày hóa đơn, trị giá.
+Sau khi mua hàng và thanh toán, khách hàng sẽ nhận được một hóa đơn và hóa đơn cũng có ghi nhận lại nhân viên nào đã thực hiện thanh toán cho khách hàng. Vì một khách hàng có thể mua hàng nhiều lần nên sẽ có nhiều hóa đơn. Một nhân viên có thể thực hiện thanh toán cho khách hàng nhiều lần nên cũng sẽ có trong nhiều hóa đơn.
+Một hóa đơn có thể chứa danh sách nhiều sản phẩm. Một sản phẩm cũng có thể được chứa trong nhiều hóa đơn. Trong chi tiết hóa đơn được ghi lại, cần phải có số lượng sản phẩm.

@@ -1,0 +1,8 @@
+Một cơ sở dữ liệu quản lý phòng khám được thiết kế như sau:
+Mỗi phòng khám có các thông tin gồm mã phòng khám duy nhất và tên phòng khám.
+Mỗi bệnh nhân có mã bệnh nhân duy nhất để phân biệt với các bệnh nhân khác, có tên bệnh nhân, ngày sinh, số điện thoại, giới tính.
+Mỗi bác sĩ có mã bác sĩ duy nhất để phân biệt và có tên bác sĩ.
+Mỗi phòng khám chỉ có duy nhất một bác sĩ làm trưởng phòng.
+Khi bệnh nhân đến khám bệnh thì sẽ được ghi lại thông tin khám bệnh.
+Thông tin khám bệnh bao gồm mã khám bệnh duy nhất, ngày khám và kết luận.
+Một bệnh nhân có thể đến khám nhiều lần nên sẽ có nhiều thông tin khám bệnh. Một bác sĩ cũng khám cho nhiều bệnh nhân nên cũng sẽ có nhiều thông tin khám bệnh.

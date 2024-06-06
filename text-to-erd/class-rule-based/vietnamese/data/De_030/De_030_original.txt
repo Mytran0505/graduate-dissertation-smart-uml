@@ -1,0 +1,9 @@
+Một hệ thống cho thuê xe muốn xây dựng một cơ sở dữ liệu cho thuê như sau:
+Mỗi khách hàng khi đến thuê xe sẽ được ghi nhận lại một mã khách hàng duy nhất để phân biệt với các khách hàng khác cùng với các thông tin bao gồm họ tên khách hàng, số điện thoại.
+Mỗi nhà xe có một mã nhà xe duy nhất, có tên nhà xe và địa chỉ.
+Một nhà xe sở hữu nhiều xe.
+Mỗi xe có một biển số xe duy nhất để phân biệt với các xe khác. Ngoài ra còn được lưu trữ thêm các thông tin: tên xe, số lượng chỗ.
+Một xe chỉ thuộc về một loại xe.
+Mỗi loại xe có một mã loại duy nhất cùng với tên loại.
+Các khách hàng khi đặt xe thì sẽ phải thực hiện gọi đặt chỗ.
+Một khách hàng có thể gọi đặt chỗ cho nhiều xe. Một xe cũng có thể được đặt chỗ bởi nhiều khách hàng. Khi khách hàng gọi đặt chỗ, hệ thống phải ghi lại thời gian đặt chỗ.

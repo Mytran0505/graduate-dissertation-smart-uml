@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu quản lý bán xe máy trả góp như sau:
+Mỗi khách hàng được ghi nhận tên khách hàng, ngày sinh, địa chỉ, số chứng minh nhân dân và được ấn định một mã khách hàng duy nhất để theo dõi.
+Mỗi loại xe được ghi nhận các thông tin bao gồm mã loại xe duy nhất, tên loại xe, công nghệ động cơ.
+Một loại xe sẽ có nhiều xe máy.
+Mỗi xe máy bao gồm các thông tin: mã xe máy duy nhất, tên xe máy, năm sản xuất, trọng lượng xe, giá bán.
+Mỗi loại hình trả góp có các thông tin chi tiết bao gồm: mã loại hình duy nhất, tên loại hình, phần trăm trả trước, kỳ hạn, lãi suất, phí thu hộ.
+Một loại hình trả góp sẽ có nhiều thông tin trả góp.
+Thông tin trả góp chi tiết bao gồm: mã trả góp duy nhất, ngày mua, số tiền trả trước.
+Mỗi khách hàng có thể đứng tên để mua trả góp được nhiều xe máy nên một khách hàng sẽ được ghi nhận trong nhiều thông tin trả góp. Và mỗi xe máy cũng có thể xuất hiện trong nhiều thông tin trả góp.

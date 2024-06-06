@@ -1,0 +1,46 @@
+@startuml
+
+entity "nhan_vien" as nhan_vien {
+ * ma_nhan_vien
+ + ho_ten
+ + ngay_sinh
+ + so_chung_minh_nhan_dan
+ + ca_lam_viec
+ + muc_luong
+}
+
+entity "sanh" as sanh {
+ * ma_sanh
+ + ten_sanh
+ + loai_ban
+ + suc_chua
+}
+
+entity "loai_tiec" as loai_tiec {
+ * ma_loai_tiec
+ + ten_loai_tiec
+ + yeu_cau_so_ban_toi_thieu
+}
+
+entity "tiec" as tiec {
+ * ma_tiec
+ + chu_tiec
+ + so_ban
+ + gia
+ + thoi_gian_bat_dau
+ + thoi_gian_ket_thuc
+}
+
+entity "phuc_vu" as phuc_vu {
+ + thoi_gian_phuc_vu
+}
+
+sanh |o--|{ tiec
+
+loai_tiec |o--|{ tiec
+
+nhan_vien |o--|{ phuc_vu
+
+tiec |o--|{ phuc_vu
+
+@enduml

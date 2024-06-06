@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu quản lý bán hàng của một cửa hàng hoa như sau:
+Quan hệ nhà vườn lưu trữ thông tin nhà vườn cung cấp các sản phẩm mà cửa hàng bán ra. Các thông tin gồm: mã nhà vườn duy nhất, họ tên người đại diện, số điện thoại và địa chỉ liên hệ.
+Quan hệ sản phẩm lưu trữ thông tin tất cả sản phẩm mà mà cửa hàng bán ra. Các thuộc tính gồm có: mã sản phẩm duy nhất, tên sản phẩm, đơn vị tính, thể loại, giá nhập, giá bán.
+Một nhà vườn cung cấp nhiều sản phẩm cho cửa hàng.
+Quan hệ đơn hàng lưu trữ thông tin các đơn hàng của cửa hàng bán ra gồm: mã đơn hàng duy nhất, ngày bán, tổng tiền và số tiền đã thanh toán.
+Một đơn hàng có thể bao gồm nhiều sản phẩm và một sản phẩm cũng có thể được liệt kê trong nhiều đơn hàng.
+Khi lập chi tiết hóa đơn, cần biết số lượng của sản phẩm trong đơn hàng.
+Quan hệ giao hàng lưu trữ thông tin cho những đơn hàng cần giao gồm có: mã giao hàng duy nhất, ngày giao, người giao, số điện thoại người giao, người nhận, số điện thoại người nhận, địa chỉ, phí ship, trạng thái giao hàng.
+Mỗi giao hàng chỉ đảm nhận giao một đơn hàng duy nhất.

@@ -1,0 +1,7 @@
+Mỗi bài_hát được xác định bởi duy nhất một mã_bài_hát, tên_bài_hát, thể_loại.
+Mỗi ca_sĩ được xác định bởi duy nhất một mã_ca_sĩ, họ_tên, giới_tính.
+Một ca_sĩ có nhiều bài_hát.
+Mỗi danh_sách_phát được xác định bởi duy nhất một mã_danh_sách_phát, tên_danh_sách_phát.
+Một bài_hát có thể thuộc nhiều danh_sách_phát.
+Một danh_sách_phát có thể có nhiều bài_hát.
+Khi thuộc, phải biết số_thứ_tự.

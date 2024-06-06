@@ -1,0 +1,31 @@
+@startuml
+
+entity "bai_hat" as bai_hat {
+ * ma_bai_hat
+ + ten_bai_hat
+ + the_loai
+}
+
+entity "ca_si" as ca_si {
+ * ma_ca_si
+ + ho_ten
+ + gioi_tinh
+}
+
+entity "danh_sach_phat" as danh_sach_phat {
+ * ma_danh_sach_phat
+ + ten_danh_sach_phat
+ * ma_danh_sach_phat
+}
+
+entity "thuoc" as thuoc {
+ + so_thu_tu
+}
+
+ca_si |o--|{ bai_hat
+
+bai_hat |o--|{ thuoc
+
+danh_sach_phat |o--|{ thuoc
+
+@enduml

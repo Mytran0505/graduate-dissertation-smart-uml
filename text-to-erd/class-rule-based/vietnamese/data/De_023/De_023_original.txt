@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu Quản lý nhân viên phục vụ của nhà hàng White Palace có cấu trúc như sau:
+Mỗi nhân viên được ghi nhận một mã nhân viên duy nhất để phân biệt với các nhân viên khác. Ngoài ra nhân viên còn có thêm các thông tin bao gồm họ tên, ngày sinh, số chứng minh nhân dân, ca làm việc, mức lương.
+Mỗi sảnh có một mã sảnh duy nhất để phân biệt với các sảnh khác, có tên sảnh, loại bàn, sức chứa.
+Mỗi loại tiệc có một mã loại tiệc duy nhất, có tên loại tiệc, yêu cầu số bàn tối thiểu.
+Mỗi tiệc có các thông tin bao gồm mã tiệc duy nhất, chủ tiệc, số bàn, giá, thời gian bắt đầu, thời gian kết thúc.
+Khi lên kế hoạch tổ chức tiệc, người ta sẽ xác định xem bữa tiệc đó là loại tiệc gì và sẽ được tổ chức ở sảnh nào.
+Một sảnh sẽ dùng để tổ chức nhiều tiệc.
+Một loại tiệc sẽ có nhiều tiệc được tổ chức.
+Một nhân viên có thể phục vụ nhiều tiệc và một tiệc cũng được phục vụ bởi nhiều nhân viên. Khi ghi lại thông tin phục vụ, cần biết thời gian phục vụ.

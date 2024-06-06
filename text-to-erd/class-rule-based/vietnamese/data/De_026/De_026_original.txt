@@ -1,0 +1,6 @@
+Một cơ sở dữ liệu quản lý bài hát được thiết kế như sau:
+Mỗi bài hát có các thông tin gồm mã bài hát duy nhất, có tên bài hát, thể loại.
+Mỗi ca sĩ có mã ca sĩ duy nhất, có họ tên, giới tính.
+Một ca sĩ có thể trình bày nhiều bài hát.
+Một danh sách phát bao gồm mã danh sách phát duy nhất để phân biệt với các danh sách phát khác, có tên danh sách phát.
+Một danh sách phát có thể chứa nhiều bài hát và một bài hát cũng có thể thuộc nhiều danh sách phát. Khi một bài hát thuộc một danh sách phát, cần phải biết số thứ tự của bài hát.

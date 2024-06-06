@@ -1,0 +1,9 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng. Mỗi khách_hàng được gán họ_tên, địa_chỉ, số_điện_thoại, ngày_sinh, doanh_số, ngày_đăng_ký.
+Mỗi nhân_viên được gán họ_tên, số_điện_thoại, ngày_vào_làm. Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên.
+Mỗi sản_phẩm được xác định bởi duy nhất một mã_sản_phẩm, tên_sản_phẩm, đơn_vị_tính, nước_sản_xuất, giá.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, ngày_hóa_đơn, trị_giá.
+Một khách_hàng có nhiều hóa_đơn.
+Một nhân_viên có nhiều hóa_đơn.
+Một hóa_đơn có thể chứa nhiều sản_phẩm.
+Một sản_phẩm có thể được_chứa trong nhiều hóa_đơn.
+Khi chi_tiết_hóa_đơn, phải biết số_lượng_sản_phẩm.

@@ -1,0 +1,8 @@
+Cho lược đồ cơ sở dữ liệu Quản lý hồ sơ bệnh án điện tử công dân có cấu trúc như sau:
+Quan hệ bệnh nhân lưu trữ thông tin của một bệnh nhân, bao gồm: họ tên, ngày sinh, số chứng minh nhân dân, địa chỉ, đối tượng, số lần phẫu thuật. Mỗi bệnh nhân được cấp một mã bệnh nhân duy nhất.
+Quan hệ khám bệnh chứa các thông tin của việc khám bệnh, bao gồm: mã khám bệnh duy nhất, bệnh chính, bệnh kèm theo, thời gian bắt đầu, thời gian kết thúc, kết luận, ngày hẹn tái khám.
+Một bệnh nhân có thể đến để khám bệnh nhiều lần.
+Quan hệ phẫu thuật chứa các thông tin sự kiện phẫu thuật, bao gồm: mã phẫu thuật duy nhất, bộ phận phẫu thuật, loại phẫu thuật, kết quả.
+Mỗi phẫu thuật chỉ thuộc một khám bệnh và một khám bệnh có nhiều phẫu thuật.
+Quan hệ bác sĩ lưu trữ thông tin các bác sĩ, bao gồm: mã bác sĩ duy nhất, họ tên, năm sinh, chuyên môn, khoa, bệnh viện.
+Một bác sĩ có thể phụ trách nhiều khám bệnh. Một khám bệnh cũng có thể được phụ trách bởi nhiều bác sĩ. Khi phụ trách, cần ghi lại thời điểm bắt đầu phụ trách và thời điểm kết thúc phụ trách.

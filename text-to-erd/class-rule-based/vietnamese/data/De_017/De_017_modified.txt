@@ -1,0 +1,7 @@
+Mỗi thành_viên được xác định bởi duy nhất một mã_thành_viên, tên_thành_viên, thứ_hạng, loại_thành_viên, ngày_đăng_ký.
+Mỗi bài_tập được xác định bởi duy nhất một mã_bài_tập, tên_bài_tập.
+Mỗi độ_khó được xác định bởi duy nhất một mã_độ_khó, điểm_độ_khó.
+Một độ_khó có nhiều bài_tập.
+Mỗi nộp_bài được xác định bởi duy nhất một mã_bài_nộp, ngày_nộp, điểm_hệ_thống.
+Một thành_viên có nhiều nộp_bài.
+Một bài_tập có nhiều nộp_bài.
