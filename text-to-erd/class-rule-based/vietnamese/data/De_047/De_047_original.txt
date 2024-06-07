@@ -1,0 +1,7 @@
+Cho lược đồ cơ sở dữ liệu quản lý sách như sau:
+Mỗi sách có các thông tin gồm: mã sác duy nhất để phân biệt với các sách khác, có tên sách, thể loại.
+Mỗi tác giả có một mã tác giả duy nhất để phân biệt, có họ tên, địa chỉ, ngày sinh, số điện thoại.
+Một tác giả có thể sáng tác nhiều sách và một sách có thể được đồng sáng tác bởi nhiều tác giả.
+Các sách sau khi được duyệt qua thì có thể được phát hành ra thị trường để người đọc tiếp cận.
+Thông tin phát hành bao gồm: mã phát hành duy nhất (danh định), ngày phát hành, số lượng, nhà xuất bản.
+Với mỗi thông tin phát hành chỉ có một sách cụ thể nhưng một sách sẽ có thể có nhiều phát hành nếu có tiềm năng bán ra nhiều và được độc giả yêu thích.

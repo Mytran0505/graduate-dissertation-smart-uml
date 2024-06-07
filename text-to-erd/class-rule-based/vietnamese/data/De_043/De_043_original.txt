@@ -1,0 +1,9 @@
+Cho hệ thống cơ sở dữ liệu quản lý dạy học lái xe như sau:
+Bảng xếp loại lưu trữ thông tin xếp loại gồm: mã xếp loại duy nhất, tên xếp loại.
+Bảng học viên lưu trữ thông tin học viên gồm: mã học viên duy nhất, họ tên, ngày sinh, địa chỉ, email, số điện thoại.
+Một học viên khi học lái sẽ được phân vào một xếp loại cụ thể.
+Bảng giáo viên lưu trữ thông tin giáo viên gồm: mã giáo viên duy nhất, họ tên, ngày sinh, ngày vào làm.
+Bảng xe lưu trữ thông tin xe gồm: mã xe duy nhất, biển số, tên loại xe.
+Bảng bài học lưu trữ thông tin bài học gồm: mã bài học duy nhất, ngày học, số giờ, giá.
+Để một bài học có thể bắt đầu, cần phải có sự có mặt của học viên và giáo viên cùng với xe dùng để dạy lái.
+Do đó, một xe sẽ có nhiều bài học. Một giáo viên sẽ có nhiều bài học. Một học viên cũng sẽ có nhiều bài học.

@@ -1,0 +1,6 @@
+Người quản trị của một Mạng xã hội Video đã thiết kế một cơ sở dữ liệu quản lý Mạng xã hội Video. Sau đây là một phần của lược đồ cơ sở dữ liệu.
+Lược đồ quan hệ người dùng nhằm mô tả cho những người dùng đang được quản lý. Mỗi người dùng được ghi nhận tên người dùng, mật khẩu, ngày đăng ký, quốc tịch và được ấn định một mã người dùng duy nhất để theo dõi.
+Lược đồ quan hệ kênh nhằm mô tả thông tin kênh chia sẻ của một người dùng. Mỗi thông tin kênh sẽ bao gồm tên kênh, số lượng người theo dõi, ngày tạo kênh và được đặt một mã kênh duy nhất để quản lý.
+Một người dùng được phép sở hữu nhiều kênh khác nhau.
+Lược đồ quan hệ video nhằm mô tả thông tin những video được đăng tải. Thông tin được ghi nhận bao gồm: mã video duy nhất, tiêu đề, thời lượng, giới hạn độ tuổi.
+Một kênh có thể chia sẻ nhiều video và một video cũng có thể được chia sẻ bởi nhiều kênh khác nhau.

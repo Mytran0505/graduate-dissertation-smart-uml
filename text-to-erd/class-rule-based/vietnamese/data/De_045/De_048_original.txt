@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu quản lý phòng khám như sau:
+Thông tin phòng khám gồm: mã phòng khám (danh định), tên phòng khám, địa chỉ.
+Thông tin nhà cung cấp gồm: mã nhà cung cấp (danh định), tên nhà cung cấp, địa chỉ.
+Thông tin thuốc gồm: mã thuốc (danh định), tên thuốc, đơn vị tính, giá thuốc.
+Một thuốc có nguồn gốc từ một nhà cung cấp xác định và một nhà cung cấp có khả năng cung cấp nhiều thuốc.
+Thông tin bệnh nhân gồm: mã bệnh nhân (danh định), họ tên, số điện thoại, ngày sinh, giới tính.
+Thông tin khám bệnh gồm: mã khám bệnh (danh định), ngày khám, chẩn đoán, ghi chú.
+Một bệnh nhân có thể đến khám nhiều lần nên sẽ có nhiều khám bệnh. Một phòng khám cũng có thể được dùng để thực hiện khám nhiều lần nên cũng sẽ có nhiều khám bệnh.
+Một khám bệnh có thể kê nhiều thuốc cho bệnh nhân và một thuốc có thể được kê trong nhiều khám bệnh. Khi kê đơn thuốc, cần phải ghi lại số lượng và thành tiền.

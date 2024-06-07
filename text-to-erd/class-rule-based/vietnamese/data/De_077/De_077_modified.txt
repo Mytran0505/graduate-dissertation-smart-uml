@@ -1,0 +1,7 @@
+Mỗi công_trình được xác định bởi duy nhất một mã_công_trình, tên_công_trình, địa_điểm, ngày_cấp_phép, ngày_khởi_công, ngày_hoàn_thành.
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_tên, ngày_sinh, phái, địa_chỉ.
+Mỗi phòng_ban có nhiều nhân_viên.
+Mỗi phòng_ban được xác định bởi duy nhất một mã_phòng_ban, tên_phòng_ban.
+Mỗi công_trình có thể được_phân cho nhiều nhân_viên.
+Mỗi nhân_viên có thể tham_gia vào nhiều công_trình.
+Khi tham_gia, phải biết số_lượng_ngày_công.

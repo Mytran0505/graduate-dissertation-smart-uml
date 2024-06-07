@@ -1,0 +1,9 @@
+Mỗi xếp_loại được xác định bởi duy nhất một mã_xếp_loại, tên_xếp_loại.
+Mỗi học_viên được xác định bởi duy nhất một mã_học_viên, họ_tên, ngày_sinh, địa_chỉ, email, số_điện_thoại.
+Một xếp_loại có nhiều học_viên.
+Mỗi giáo_viên được xác định bởi duy nhất một mã_giáo_viên, họ_tên, ngày_sinh, ngày_vào_làm.
+Mỗi xe được xác định bởi duy nhất một mã_xe, biển_số_xe, tên_loại_xe.
+Mỗi bài_học được xác định bởi duy nhất một mã_bài_học, ngày_học, số_giờ, giá.
+Một xe có nhiều bài_học.
+Một giáo_viên có nhiều bài_học.
+Một học_viên có nhiều bài_học.

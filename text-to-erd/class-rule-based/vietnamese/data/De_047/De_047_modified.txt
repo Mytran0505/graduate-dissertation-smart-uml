@@ -1,0 +1,5 @@
+Mỗi sách được xác định bởi duy nhất một mã_sách, tên_sách, thể_loại.
+Mỗi tác_giả được xác định bởi duy nhất một mã_tác_giả, họ_tên, địa_chỉ, ngày_sinh, số_điện_thoại.
+Một tác_giả có thể sáng_tác nhiều sách. Một sách có thể được_đồng_sáng_tác bởi nhiều tác_giả.
+Mỗi phát_hành được xác định bởi duy nhất một mã_phát_hành, ngày_phát_hành, số_lượng, nhà_xuất_bản.
+Một sách có nhiều phát_hành.

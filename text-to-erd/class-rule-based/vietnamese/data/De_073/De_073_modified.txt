@@ -1,0 +1,5 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, tên_nhân_viên, địa_chỉ, ngày_sinh.
+Mỗi dự_án được xác định bởi duy nhất một mã_dự_án, tên_dự_án, ngày_bắt_đầu.
+Một nhân_viên có thể tham_gia nhiều dự_án.
+Một dự_án có thể có nhiều nhân_viên.
+Khi tham_gia, phải biết tiền_lương.

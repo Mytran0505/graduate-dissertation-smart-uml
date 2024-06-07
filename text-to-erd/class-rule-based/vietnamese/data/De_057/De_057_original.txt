@@ -1,0 +1,6 @@
+Xét cơ sở dữ liệu của một công ty phần mềm:
+Bảng nhân viên gồm mã nhân viên (danh định), tên nhân viên.
+Bảng chức vụ gồm tên chức vụ (danh định), mức lương.
+Một chức vụ sẽ được gán cho nhiều nhân viên khác nhau.
+Bảng dự án gồm mã dự án (danh định), tên dự án, ngân sách.
+Một nhân viên có thể triển khai nhiều dự án và một dự án có thể được triển khai bởi nhiều nhân viên. Khi ghi lại hồ sơ triển khai dự án, cần phải biết nhiệm vụ và thời gian.

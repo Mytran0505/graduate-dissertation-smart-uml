@@ -1,0 +1,9 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_tên, ngày_sinh, phái, địa_chỉ, mức_lương.
+Một phòng_ban có nhiều nhân_viên.
+Một phòng_ban chỉ có duy nhất một nhân_viên làm trưởng_phòng.
+Mỗi phòng_ban được xác định bởi duy nhất một mã_phòng_ban, tên_phòng_ban, ngày_nhận_chức_của_trưởng_phòng.
+Mỗi đề_án được xác định bởi duy nhất một mã_đề_án, tên_đề_án, địa_điểm_thực_hiện, ngày_bắt_đầu_dự_kiến, ngày_kết_thúc_dự_kiến.
+Một phòng_ban có nhiều đề_án.
+Một nhân_viên có thể thực hiện nhiều đề_án.
+Một đề_án có thể được_thực_hiện bởi nhiều nhân_viên.
+Khi phân_công, phải biết thời_gian_thực_hiện_đề_án.

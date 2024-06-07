@@ -1,0 +1,7 @@
+Mỗi nguyên_liệu được xác định bởi duy nhất một mã_nguyên_liệu, tên_nguyên_liệu, chỉ_số_calori_của_nguyên_liệu, chỉ_số_protein_của_nguyên_liệu.
+Mỗi món_ăn được xác định bởi duy nhất một mã_món_ăn, tên_món_ăn, giá_thành, chỉ_số_calori_của_món_ăn, chỉ_số_protein_của_món_ăn.
+Một loại_món_ăn có nhiều món_ăn.
+Mỗi loại_món_ăn được xác định bởi duy nhất một mã_loại_món_ăn, tên_loại_món_ăn.
+Một món_ăn có thể được_chế_biến từ nhiều nguyên_liệu.
+Một nguyên_liệu có thể được_dùng để chế biến nhiều món_ăn.
+Khi thành_phần_món_ăn, phải biết trọng_lượng_của_nguyên_liệu.

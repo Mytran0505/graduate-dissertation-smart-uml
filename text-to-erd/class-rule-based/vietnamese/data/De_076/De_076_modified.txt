@@ -1,0 +1,7 @@
+Mỗi quyển_sách được xác định bởi duy nhất một mã_sách, tên_sách, tên_tác_giả, nhà_xuất_bản, năm_xuất_bản.
+Mỗi độc_giả được xác định bởi duy nhất một mã_độc_giả, họ_tên, ngày_sinh, địa_chỉ, nghề_nghiệp.
+Mỗi phiếu_mượn được xác định bởi duy nhất một số_phiếu_mượn, ngày_mượn.
+Một độc_giả có nhiều phiếu_mượn.
+Một phiếu_mượn có thể mượn nhiều quyển_sách.
+Một quyển_sách có thể được_mượn trong nhiều phiếu_mượn.
+Khi mượn, phải biết ngày_trả.

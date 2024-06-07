@@ -1,0 +1,7 @@
+Cho cơ sở dữ liệu về quản lý đề tài gồm các quan hệ sau:
+Quan hệ đề tài có mã đề tài duy nhất và tên đề tài.
+Mỗi một đề tài thuộc duy nhất một khoa quản lý và một khoa sẽ quản lý nhiều đề tài.
+Quan hệ khoa có mã khoa duy nhất và tên khoa.
+Quan hệ sinh viên có mã sinh viên duy nhất, họ và tên đệm sinh viên, tên sinh viên.
+Mỗi một sinh viên thuộc duy nhất một khoa quản lý và một khoa sẽ quản lý nhiều sinh viên.
+Một sinh viên có thể làm nhiều đề tài và một đề tài có thể do một nhóm sinh viên cùng làm. Khi ghi lại thông tin thực hiện đề tài, phải có giá trị trưởng nhóm.

@@ -1,0 +1,6 @@
+Mỗi loại_máy_bay được xác định bởi duy nhất một model_của_máy_bay, sức_chứa, trọng_lượng.
+Mỗi máy_bay được xác định bởi duy nhất một biển_số.
+Một loại_máy_bay có nhiều máy_bay.
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, tên, địa_chỉ, ngày_sinh, điện_thoại, lương, cấp_bậc, ngày_bắt_đầu_làm_việc.
+Một nhân_viên có thể làm_việc trên nhiều máy_bay.
+Một máy_bay có thể có nhiều nhân_viên cùng làm việc.

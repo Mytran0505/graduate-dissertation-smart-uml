@@ -1,0 +1,7 @@
+Mỗi dự_án được xác định bởi duy nhất một mã_dự_án, tên, kinh_phí, vị_trí.
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, tên_nhân_viên.
+Mỗi lương được xác định bởi duy nhất một chức_vụ, mức_lương.
+Một lương có nhiều nhân_viên.
+Một nhân_viên có thể đảm_nhiệm nhiều dự_án.
+Một dự_án có thể được phân_công cho nhiều nhân_viên.
+Khi trách_nhiệm, phải biết trách_nhiệm_của_nhân_viên, thời_gian_thực_hiện.

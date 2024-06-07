@@ -1,0 +1,9 @@
+Mỗi cuốn_sách được xác định bởi duy nhất một mã_sách, tên_sách, số_trang, số_lượng.
+Mỗi cuốn_sách có thể được_viết bởi nhiều tác_giả.
+Mỗi tác_giả có thể viết nhiều cuốn_sách.
+Mỗi tác_giả được xác định bởi duy nhất một mã_tác_giả, họ_và_tên, ngày_sinh, địa_chỉ.
+Một nhà_xuất_bản có nhiều cuốn_sách. Mỗi nhà_xuất_bản được xác định bởi duy nhất một mã_nhà_xuất_bản, tên_nhà_xuất_bản, địa_chỉ.
+Mỗi bạn_đọc được xác định bởi duy nhất một số_thẻ, họ_và_tên, địa_chỉ.
+Một bạn_đọc có thể mượn_trả nhiều cuốn_sách.
+Một cuốn_sách có thể được_mượn_trả bởi nhiều bạn_đọc.
+Khi mượn_trả_sách, phải biết ngày_mượn.

@@ -1,0 +1,9 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_và_tên_đệm, tên, ngày_sinh, địa_chỉ, giới_tính, bậc_lương.
+Một phòng có nhiều nhân_viên.
+Mỗi phòng được xác định bởi duy nhất một mã_phòng, tên_phòng.
+Mỗi phòng chỉ có duy nhất một nhân_viên làm trưởng_phòng.
+Mỗi dự_án được xác định bởi duy nhất một mã_dự_án, tên_dự_án.
+Một phòng có nhiều dự_án.
+Mỗi dự_án có thể có nhiều nhân_viên.
+Mỗi nhân_viên có thể tham_gia nhiều dự_án.
+Khi tham_gia, phải biết số_ngày.

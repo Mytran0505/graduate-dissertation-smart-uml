@@ -1,0 +1,11 @@
+Mỗi phòng_học được xác định bởi duy nhất một mã_phòng, số_lượng_người_tối_đa.
+Mỗi thiết_bị được xác định bởi duy nhất một mã_thiết_bị, tên_thiết_bị, số_lượng_hiện_tại.
+Mỗi giảng_viên được xác định bởi duy nhất một mã_giảng_viên, tên_giảng_viên, năm_sinh, phái.
+Mỗi khóa_học được xác định bởi duy nhất một mã_khóa_học, ngày_bắt_đầu, số_ngày, số_người_tham_gia.
+Một phòng_học có nhiều khóa_học.
+Một khóa_học có thể sử_dụng nhiều thiết_bị.
+Một thiết_bị có thể được_sử_dụng trong nhiều khóa_học.
+Khi sử_dụng_thiết_bị, phải biết số_lượng_sử_dụng.
+Một giảng_viên có thể giảng_dạy trong nhiều khóa_học.
+Một khóa_học có thể được_giảng_dạy bởi nhiều giảng_viên.
+Khi giảng_dạy, phải biết ngày_bắt_đầu, ngày_kết_thúc.

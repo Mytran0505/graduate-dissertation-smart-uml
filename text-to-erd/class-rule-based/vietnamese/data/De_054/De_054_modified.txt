@@ -1,0 +1,7 @@
+Mỗi hãng_hàng_không được gán tên_hãng, ngày_thành_lập, số_đường_bay. Mỗi hãng_hàng_không được xác định bởi duy nhất một mã_hãng.
+Một hãng_hàng_không có nhiều chuyến_bay.
+Mỗi chuyến_bay được gán điểm_xuất_phát, điểm_đến, thời_điểm_bắt_đầu, thời_gian_bay_dự_kiến. Mỗi chuyến_bay được xác định bởi duy nhất một mã_chuyến_bay.
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_tên, giới_tính, ngày_sinh, ngày_vào_làm, chuyên_môn.
+Một chuyến_bay có thể phân_công cho nhiều nhân_viên.
+Một nhân_viên có thể được_phân_công trên nhiều chuyến_bay.
+Khi phân_công, phải biết nhiệm_vụ.

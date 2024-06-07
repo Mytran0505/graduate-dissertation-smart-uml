@@ -1,0 +1,8 @@
+Cho cơ sở dữ liệu quản lý các khóa học gồm các quan hệ như sau:
+Mỗi thông tin phòng học lưu trữ một mã phòng duy nhất và số lượng người tối đa.
+Mỗi thiết bị có các thông tin gồm mã thiết bị duy nhất, tên thiết bị, số lượng hiện tại.
+Mỗi giảng viên có một mã giảng viên duy nhất để phân biệt với các giảng viên khác, có tên giảng viên, năm sinh, phái.
+Mỗi khóa học có một mã khóa học duy nhất để quản lý, có ngày bắt đầu, số ngày, số người tham gia.
+Mỗi khóa học được tổ chức tại một phòng học cụ thể.
+Một khóa học có thể sử dụng nhiều thiết bị để phục vụ cho công tác giảng dạy. Một thiết bị cũng có thể được sử dụng để giảng dạy trong nhiều khóa học. Khi ghi lại thông tin sử dụng thiết bị, cần phải biết số lượng sử dụng.
+Một giảng viên có thể giảng dạy trong nhiều khóa học và một khóa học có thể được giảng dạy bởi nhiều giảng viên. Khi ghi lại thông tin giảng dạy, hệ thống cần lưu trữ ngày bắt đầu và ngày kết thúc.

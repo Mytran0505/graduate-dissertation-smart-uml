@@ -1,0 +1,10 @@
+Mỗi phòng_khám được xác định bởi duy nhất một mã_phòng_khám, tên_phòng_khám, địa_chỉ, quận, điện_thoại.
+Một phòng_khám có nhiều chuyên_khoa.
+Mỗi chuyên_khoa được xác định bởi duy nhất một mã_chuyên_khoa, tên_khoa.
+Mỗi bệnh_nhân được xác định bởi duy nhất một mã_bênh_nhân, tên_bệnh_nhân, ngày_sinh, địa_chỉ, điện_thoại, giới_tính.
+Mỗi bác_sĩ được xác định bởi duy nhất một mã_bác_sĩ, tên_bác_sĩ, tên_đăng_nhập, mật_khẩu.
+Một chuyên_khoa có nhiều bác_sĩ.
+Mỗi khám_bệnh được xác định bởi duy nhất một mã_khám_bệnh, yêu_cầu_khám, ngày_khám, kết_luận.
+Một bệnh_nhân có nhiều khám_bệnh.
+Một bác_sĩ có nhiều khám_bệnh.
+Một phòng_khám có nhiều khám_bệnh.

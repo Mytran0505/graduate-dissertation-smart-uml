@@ -1,0 +1,7 @@
+Mỗi loại_sản_phẩm được xác định bởi duy nhất một mã_loại, mô_tả, hạn_lưu_kho.
+Mỗi sản_phẩm được xác định bởi duy nhất một mã_sản_phẩm, tên_sản_phẩm.
+Một loại_sản_phẩm có nhiều sản_phẩm.
+Mỗi phiếu_nhập_xuất được xác định bởi duy nhất một mã_số_phiếu, ngày_nhập_xuất, loại_phiếu.
+Một phiếu_nhập_xuất có thể ghi_nhận nhiều sản_phẩm.
+Một sản_phẩm có thể được_lưu_trữ trong nhiều phiếu_nhập_xuất.
+Khi chi_tiết_phiếu, phải biết số_lượng.

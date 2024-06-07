@@ -1,0 +1,7 @@
+Người ta muốn thiết kế một hệ thống cơ sở dữ liệu quản lý đề án như sau:
+Mỗi nhân viên có một mã nhân viên duy nhất để phân biệt với các nhân viên khác, có họ tên, ngày sinh, phái, địa chỉ, mức lương.
+Một phòng ban có nhiều nhân viên nhưng chỉ có duy nhất một nhân viên làm trưởng phòng.
+Mỗi phòng ban được xác định bởi một mã phòng ban duy nhất, có tên phòng ban, ngày nhận chức của trưởng phỏng.
+Mỗi đề án có một mã đề án duy nhất để phân biệt với các đề án khác, có tên đề án, địa điểm thực hiện, ngày bắt đầu dự kiến, ngày kết thúc dự kiến.
+Một đề án được chỉ định thực hiện bởi một phòng ban và một phòng ban sẽ thực hiện nhiều đề án.
+Một nhân viên có thể thực hiện nhiều đề án và một đề án cũng có thể được thực hiện bởi nhiều nhân viên. Khi phân công, cần phải biết thời gian thực hiện đề án.

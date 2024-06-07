@@ -1,0 +1,6 @@
+Người quản trị của một sân bay muốn quản lý các chuyến bay, đã thiết kế một cơ sở dữ liệu quản lý chuyến bay như sau:
+Lược đồ quan hệ hãng hàng không nhằm mô tả cho những hãng hàng không đang được quản lý. Mỗi hãng hàng không được ghi nhận tên hãng, ngày thành lập, số đường bay và được ấn định một mã hãng duy nhất để theo dõi.
+Một hãng hàng không sẽ có nhiều chuyến bay hoạt động.
+Lược đồ quan hệ chuyến bay nhằm mô tả thông tin các chuyến bay. Mỗi thông tin chuyến bay sẽ bao gồm điểm xuất phát, điểm đến, thời điểm bắt đầu, thời gian bay dự kiến và được đặt một mã chuyến bay duy nhất để quản lý.
+Lược đồ quan hệ nhân viên nhằm mô tả thông tin những nhân viên của hãng hàng không. Thông tin được ghi nhận bao gồm: mã nhân viên duy nhất, họ tên, giới tính, ngày sinh, ngày vào làm, chuyên môn.
+Một chuyến bay có thể phân công cho nhiều nhân viên làm việc. Một nhân viên cũng có thể được phân công làm việc trên nhiều chuyến bay. Khi ghi lại thông tin phân công, hệ thống cần biết nhiệm vụ của nhân viên được phân công.

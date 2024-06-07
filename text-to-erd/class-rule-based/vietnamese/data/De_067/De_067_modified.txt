@@ -1,0 +1,8 @@
+Mỗi đề_tài được xác định bởi duy nhất một mã_đề_tài, tên_đề_tài.
+Một khoa có nhiều đề_tài.
+Mỗi khoa được xác định bởi duy nhất một mã_khoa, tên_khoa.
+Mỗi sinh_viên được xác định bởi duy nhất một mã_sinh_viên, họ_và_tên_đệm_sinh_viên, tên_sinh_viên.
+Một khoa có nhiều sinh_viên.
+Một sinh_viên có thể làm nhiều đề_tài.
+Một đề_tài có thể được_làm bởi nhiều sinh_viên.
+Khi thực_hiện_đề_tài, phải biết trưởng_nhóm.

@@ -1,0 +1,8 @@
+Cho cơ sở dữ liệu quản lý sản phẩm gồm các quan hệ như sau:
+Thông tin loại sản phẩm được lưu trữ gồm: mã loại (danh định), mô tả, hạn lưu kho.
+Thông tin sản phẩm được lưu trữ gồm: mã sản phẩm (danh định), tên sản phẩm.
+Mỗi sản phẩm thuộc một loại sản phẩm.
+Thông tin phiếu nhập xuất được lưu trữ gồm: mã số phiếu (danh định), ngày nhập xuất, loại phiếu.
+Một phiếu nhập xuất có thể ghi nhận nhiều sản phẩm.
+Một sản phẩm có thể được lưu trữ trong nhiều phiếu nhập xuất.
+Khi ghi lại thông tin chi tiết phiếu, phải biết số lượng của sản phẩm.

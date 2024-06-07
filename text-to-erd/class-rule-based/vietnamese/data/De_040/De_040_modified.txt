@@ -1,0 +1,7 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_tên, ngày_sinh, mức_lương.
+Mỗi phòng_ban được xác định bởi duy nhất một mã_phòng_ban, tên_phòng_ban.
+Một phòng_ban có nhiều nhân_viên.
+Mỗi kỹ_năng được xác định bởi duy nhất một mã_kỹ_năng, tên_kỹ_năng.
+Một nhân_viên có thể có nhiều kỹ_năng.
+Một kỹ_năng có thể được_sở_hữu bởi nhiều nhân_viên.
+Khi chi_tiết_kỹ_năng_sở_hữu, phải biết mức_độ_kỹ_năng, ngày_đăng_ký.

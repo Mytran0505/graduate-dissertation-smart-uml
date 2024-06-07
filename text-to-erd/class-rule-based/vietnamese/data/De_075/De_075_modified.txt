@@ -1,0 +1,9 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, họ_tên_khách_hàng, địa_chỉ, số_điện_thoại.
+Mỗi nhóm_hàng được xác định bởi duy nhất một mã_nhóm, tên_nhóm.
+Một nhóm_hàng có nhiều mặt_hàng.
+Mỗi mặt_hàng được xác định bởi duy nhất một mã_hàng, tên_hàng, đơn_giá_bán, đơn_vị_tính.
+Mỗi hóa_đơn được xác định bởi duy nhất một số_hóa_đơn, ngày_lập_hóa_đơn, ngày_giao_hàng.
+Một khách_hàng có nhiều hóa_đơn.
+Một mặt_hàng có thể xuất_bán trong nhiều hóa_đơn.
+Một hóa_đơn có thể chứa nhiều mặt_hàng.
+Khi xuất_bán, phải biết số_lượng_bán.

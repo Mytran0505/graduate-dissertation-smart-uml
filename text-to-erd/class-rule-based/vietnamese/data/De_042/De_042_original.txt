@@ -1,0 +1,6 @@
+Cho hệ thống cơ sở dữ liệu quản lý máy bay như sau:
+Bảng loại máy bay lưu trữ thông tin loại máy bay gồm model của máy bay (danh định), sức chứa, trọng lượng.
+Bảng máy bay lưu trữ thông tin của máy bay bao gồm biển số (danh định).
+Một loại máy bay có nhiều máy bay.
+Bảng nhân viên lưu trữ thông tin của nhân viên bao gồm mã nhân viên (danh định), tên, địa chỉ, ngày sinh, điện thoại, lương, cấp bậc, ngày bắt đầu làm việc.
+Một nhân viên có thể làm việc trên nhiều máy bay và một máy bay cũng có thể có nhiều nhân viên cùng làm việc trên đó.

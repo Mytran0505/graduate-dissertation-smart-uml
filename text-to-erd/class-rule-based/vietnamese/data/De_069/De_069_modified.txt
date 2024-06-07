@@ -1,0 +1,8 @@
+Mỗi giảng_viên được xác định bởi duy nhất một mã_giảng_viên, họ_tên_giảng_viên.
+Mỗi sinh_viên được xác định bởi duy nhất một mã_sinh_viên, họ_tên_sinh_viên, năm_nhập_học.
+Mỗi loại_đề_tài được xác định bởi duy nhất một mã_loại_đề_tài, tên_loại.
+Mỗi đề_tài được xác định bởi duy nhất một mã_đề_tài, tên_đề_tài.
+Một loại_đề_tài có nhiều đề_tài.
+Một giảng_viên có nhiều đề_tài.
+Một sinh_viên có thể tham_gia_làm nhiều đề_tài.
+Một đề_tài có thể được_làm bởi nhiều sinh_viên.

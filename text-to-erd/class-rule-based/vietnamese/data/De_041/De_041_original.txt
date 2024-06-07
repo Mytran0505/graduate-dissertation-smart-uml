@@ -1,0 +1,6 @@
+Cho lược đồ cơ sở dữ liệu quản lý món ăn như sau:
+Lược đồ nguyên liệu mô tả thông tin về nguyên liệu để chế biến món ăn. Mỗi nguyên liệu có một mã nguyên liệu duy nhất, tên nguyên liệu, chỉ số calori của nguyên liệu, chỉ số protein của nguyên liệu.
+Lược đồ món ăn mô tả thông tin về món ăn. Mỗi món ăn có một mã món ăn duy nhất, tên món ăn, giá thành, chỉ số calori của món ăn, chỉ số protein của món ăn.
+Mỗi món ăn thuộc một loại món ăn xác định.
+Quan hệ loại món ăn mô tả thông tin các loại món ăn. Mỗi loại món ăn có một mã loại món ăn duy nhất và tên loại món ăn.
+Một món ăn có thể được chế biến từ nhiều nguyên liệu khác nhau. Một nguyên liệu cũng có thể được dùng để chế biến nhiều món ăn. Khi xác định thành phần món ăn, cần biết trọng lượng của nguyên liệu dùng để chế biến tương ứng.

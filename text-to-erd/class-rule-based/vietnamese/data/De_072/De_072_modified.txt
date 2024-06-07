@@ -1,0 +1,6 @@
+Mỗi bác_sĩ được xác định bởi duy nhất một mã_bác_sĩ, tên_bác_sĩ, ngày_vào_làm_việc, chuyên_môn.
+Mỗi bệnh_nhân được xác định bởi duy nhất một mã_bệnh_nhân, tên_bệnh_nhân.
+Một bác_sĩ có nhiều bệnh_nhân.
+Một bệnh_nhân có thể được_điều_trị bởi nhiều bác_sĩ.
+Một bác_sĩ có thể điều_trị nhiều bệnh_nhân.
+Khi chi_tiết_điều_trị, phải biết ngày_điều_trị, thời_gian_điều_trị, kết_quả.

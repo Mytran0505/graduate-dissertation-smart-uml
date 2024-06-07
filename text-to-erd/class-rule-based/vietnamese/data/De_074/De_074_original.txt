@@ -1,0 +1,6 @@
+Thông tin về mỗi cuốn sách: mã sách (danh định), tên sách, nhà xuất bản, số trang, số lượng cuốn sách đó có còn trong hệ thống.
+Mỗi cuốn sách có thể do nhiều tác giả viết, mỗi tác giả có thể viết nhiều cuốn sách.
+Thông tin về tác giả gồm có: mã tác giả (danh định), họ và tên, ngày sinh, địa chỉ. Mỗi tác giả chỉ tồn tại khi có ít nhất một cuốn sách của tác giả đó trong hệ thống.
+Mỗi cuốn sách chỉ được xuất bản bởi một nhà xuất bản, mỗi nhà xuất bản có các thông tin: mã nhà xuất bản (danh định), tên nhà xuất bản, địa chỉ.
+Thông tin về bạn đọc bao gồm: số thẻ (danh định), họ và tên, địa chỉ.
+Khi bạn đọc mượn/trả sách, thư viện sẽ ghi nhận thông tin: ngày mượn và giảm số lượng của cuốn sách đi 1 (khi trả thì chỉ cập nhật ngày trả, và tăng số lượng sách) – không có hạn chế về số lần cũng như số sách bạn đọc được mượn.

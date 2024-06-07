@@ -1,0 +1,10 @@
+Cho cơ sở dữ liệu về quản lý thi Olympic tin học gồm các quan hệ sau:
+Mỗi thành phố có duy nhất một mã thành phố, có tên thành phố, khu vực.
+Trong mỗi thành phố sẽ có nhiều trường.
+Mỗi trường có một mã trường duy nhất để phân biệt với các trường khác và có tên trường.
+Mỗi hình thức thi có một mã hình thức thi duy nhất, có tên hình thức thi, số lượng thí sinh tối đa.
+Mỗi thí sinh có một mã thí sinh duy nhất để phân biệt, có họ tên thí sinh, năm học, giới tính và kiểu tham gia thi có phải là cá nhân hay không.
+Một trường sẽ có nhiều thí sinh tham gia thi.
+Mỗi đội có một mã đội duy nhất và có tên đội.
+Mỗi đội được chỉ định một hình thức thi cụ thể và biết được đội đó đến từ trường nào.
+Một thí sinh có thể tham gia nhiều đội và một đội có thể có nhiều thí sinh tham gia. Khi ghi lại thông tin danh sách đội, phải biết thí sinh đó có phải là đội trưởng hay không.

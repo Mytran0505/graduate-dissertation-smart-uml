@@ -1,0 +1,9 @@
+Mỗi người_dân được xác định bởi duy nhất một số_chứng_minh_nhân_dân, họ_tên, ngày_sinh, quê_quán.
+Một địa_chỉ có nhiều người_dân.
+Mỗi địa_chỉ được xác định bởi duy nhất một mã_địa_chỉ, số_nhà, tên_đường, phường, quận.
+Mỗi hộ_khẩu được xác định bởi duy nhất một mã_hộ_khẩu.
+Một hộ_khẩu chỉ có duy nhất một địa_chỉ thường_trú.
+Một người_dân có thể chi_tiết_hộ_khẩu nhiều hộ_khẩu.
+Một hộ_khẩu có thể được_đồng_sở_hữu bởi nhiều người_dân.
+Mỗi quan_hệ_hộ_khẩu được xác định bởi duy nhất một mã_quan_hệ, mô_tả_quan_hệ.
+Một quan_hệ_hộ_khẩu có nhiều chi_tiết_hộ_khẩu.

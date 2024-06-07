@@ -1,0 +1,8 @@
+Ngân hàng ABC muốn xây dựng một hệ thống thông tin quản lý tài khoản khách hàng với cơ sở dữ liệu như sau:
+Thông tin chi nhánh gồm: mã chi nhánh duy nhất để phân biệt với các chi nhánh khác, tên chi nhánh và thành phố.
+Mỗi chi nhánh có khách hàng của mình.
+Lược đồ khách hàng gồm: mã khách hàng duy nhất, họ tên khách hàng, ngày sinh, địa chỉ, nghề nghiệp, nơi công tác, điện thoại, chứng minh nhân dân.
+Thông tin loại tài khoản có mã loại tài khoản duy nhất, tên loại tài khoản và mô tả.
+Thông tin tài khoản có số tài khoản duy nhất để phân biệt với các tài khoản khác, ngày mở, ngày đóng, lãi suất, trạng thái.
+Một tài khoản thuộc một loại tài khoản cụ thể và một chi nhánh xác định.
+Một tài khoản có thể thuộc về một hay nhiều khách hàng. Một khách hàng cũng có thể có nhiều tài khoản. Khi lưu thông tin tài khoản khách hàng, phải biết số tiền có trong tài khoản.

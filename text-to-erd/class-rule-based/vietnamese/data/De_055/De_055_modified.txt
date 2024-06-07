@@ -1,0 +1,8 @@
+Mỗi cửa_hàng được xác định bởi duy nhất một mã_cửa_hàng, tên_cửa_hàng.
+Một cửa_hàng có nhiều nhân_viên.
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, tên_nhân_viên.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng.
+Một cửa_hàng có nhiều khách_hàng.
+Mỗi hóa_đơn được xác định bởi duy nhất một mã_hóa_đơn, số_tiền, ngày_hóa_đơn, nội_dung.
+Mỗi khách_hàng có nhiều hóa_đơn.
+Một nhân_viên có nhiều hóa_đơn.

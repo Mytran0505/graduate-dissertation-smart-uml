@@ -1,0 +1,9 @@
+Cho một phần lược đồ cơ sở dữ liệu quản lý bán vé tham quan phố cổ như sau:
+Quan hệ địa điểm tham quan chứa dữ liệu của các địa điểm tham quan tại phố cổ. Các thuộc tính cần lưu trữ bao gồm: mã địa điểm duy nhất, tên địa điểm, khu vực, địa chỉ, thông tin giới thiệu, năm khai thác.
+Quan hệ loại địa điểm mô tả các loại hình địa điểm tham quan, thuộc tính lưu trữ bao gồm: mã loại địa điểm duy nhất, tên loại địa điểm.
+Một địa điểm tham quan thuộc một loại địa điểm cụ thể nào đó và một loại địa điểm sẽ có nhiều địa điểm tham quan.
+Quan hệ loại vé mô tả thông tin các combo loại vé bao gồm: tên loại vé, giá vé, hạn sử dụng và được cấp một mã loại vé duy nhất để phân biệt.
+Trong chi tiết lịch trình tham quan của một loại vé có thể có nhiều địa điểm tham quan. Dĩ nhiên, một địa điểm tham quan cũng có thể được liệt kê trong nhiều loại vé khác nhau.
+Nếu du khách muốn tham quan một địa điểm nào đó thì cần phải mua vé.
+Quan hệ bán vé mô tả thông tin hóa đơn bán vé của phố cổ. Thông tin được lưu trữ bao gồm: mã hóa đơn bán vé, số lượng vé bán, trị giá, ngày bán, ngày hết hạn.
+Một loại vé sẽ được bán nhiều lần nên sẽ có nhiều bán vé.

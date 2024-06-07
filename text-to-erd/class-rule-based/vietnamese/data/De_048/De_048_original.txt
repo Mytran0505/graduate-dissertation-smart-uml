@@ -1,0 +1,10 @@
+Cho lược đồ quan hệ cơ sở dữ liệu quản lý phân công lái xe như sau:
+Mỗi nhân viên được xác định bởi một mã nhân viên duy nhất, có họ tên, ngày vào làm, hệ số lương.
+Một nhân viên sẽ do một phòng ban xác định quản lý.
+Mỗi phòng ban có một mã phòng ban duy nhất để phân biệt với các phòng ban khác và có tên phòng ban.
+Một phòng ban chỉ có duy nhất một nhân viên được chỉ định làm trưởng phòng.
+Mỗi xe có các thông tin bao gồm: mã xe duy nhất, loại xe, số chỗ ngồi, năm sản xuất.
+Để phân công lái xe thì phải có nhân viên và xe được chọn để lái.
+Thông tin phân công gồm: mã phân công (danh định), ngày đi, ngày về, nơi đến.
+Một nhân viên được phân công lái nhiều lần nên sẽ có nhiều phân công.
+Một xe cũng được sử dụng nhiều lần nên cũng sẽ có nhiều phân công.

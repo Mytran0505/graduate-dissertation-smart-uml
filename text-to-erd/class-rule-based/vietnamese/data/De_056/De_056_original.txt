@@ -1,0 +1,9 @@
+Cho lược đồ toàn cục của cơ sở dữ liệu dành cho quản lý giao dịch ngân hàng:
+Mỗi chi nhánh có một mã chi nhánh duy nhất và tên chi nhánh.
+Một chi nhánh có nhiều nhân viên làm việc.
+Mỗi nhân viên có một mã nhân viên duy nhất, có tên nhân viên.
+Mỗi khách hàng có một mã khách hàng duy nhất, có tên khách hàng.
+Một chi nhánh có nhiều khách hàng đến giao dịch.
+Mỗi giao dịch ngân hàng có một mã giao dịch duy nhất, có số tiền, ngày giao dịch, nội dung.
+Một khách hàng có thể ghé ngân hàng giao dịch nhiều lần nên một khách hàng sẽ có nhiều giao dịch.
+Một nhân viên có nhiệm vụ thực hiện giao dịch cho khách hàng nên cũng sẽ có nhiều giao dịch.

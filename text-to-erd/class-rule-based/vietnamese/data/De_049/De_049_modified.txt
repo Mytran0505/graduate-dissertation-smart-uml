@@ -1,0 +1,6 @@
+Mỗi độc_giả được xác định bởi duy nhất một mã_độc_giả, họ_tên, ngày_sinh, địa_chỉ, số_điện_thoại.
+Mỗi sách được xác định bởi duy nhất một mã_sách, tên_sách, thể_loại, nhà_xuất_bản.
+Một độc_giả có nhiều phiếu_thuê.
+Mỗi phiếu_thuê được xác định bởi duy nhất một mã_phiếu_thuê, ngày_thuê, ngày_trả, số_sách_thuê.
+Một phiếu_thuê có thể có nhiều sách.
+Một sách có thể có trong nhiều phiếu_thuê.

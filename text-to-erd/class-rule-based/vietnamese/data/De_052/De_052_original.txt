@@ -1,0 +1,13 @@
+Marie Stoopes International hiện đang vận hành các phòng khám đa khoa tại Việt Nam. Cho biết lược đồ cơ sở dữ liệu quan hệ toàn cục của phòng khám như sau:
+Thông tin phòng khám bao gồm: mã phòng khám (danh định), tên phòng khám, thành phố, điện thoại.
+Thông tin bệnh nhân bao gồm: mã bệnh nhân (danh định), tên bệnh nhân, ngày sinh, địa chỉ, điện thoại, giới tính.
+Thông tin bác sĩ bao gồm: mã bác sĩ (danh định), tên bác sĩ, tên đăng nhập, mật khẩu.
+Thông tin khám bệnh bao gồm: mã khám bệnh (danh định), yêu cầu khám, ngày khám, kết luận.
+Một bệnh nhân sẽ có nhiều khám bệnh.
+Một bác sĩ cũng có nhiều khám bệnh.
+Một phòng khám được lập ra để khám bệnh nên cũng sẽ có nhiều khám bệnh.
+Sau khi khám bệnh cho bệnh nhân xong thì hệ thống sẽ xác nhận thông tin thu phí dịch vụ khám.
+Thông tin dịch vụ bao gồm: mã dịch vụ (danh định), tên dịch vụ, đơn giá.
+Thông tin thu phí bao gồm: mã thu phí (danh định), số lượng, thành tiền.
+Một khám bệnh sẽ có nhiều thông tin thu phí khác nhau.
+Một dịch vụ cũng sẽ được liệt kê trong nhiều thu phí.

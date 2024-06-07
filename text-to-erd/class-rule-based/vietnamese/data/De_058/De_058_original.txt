@@ -1,0 +1,6 @@
+Một bệnh viện đang vận hành có lược đồ cơ sở dữ liệu quản lý phòng khám như sau:
+Mỗi phòng khám có mã phòng khám duy nhất, tên phòng khám, thành phố, điện thoại.
+Mỗi bệnh nhân có mã bệnh nhân duy nhất, tên bệnh nhân, giới tính, địa chỉ, điện thoại và ngày sinh.
+Mỗi bác sĩ có mã bác sĩ duy nhất, tên bác sĩ, tên đăng nhập, mật khẩu.
+Mỗi bác sĩ có thể khám bệnh cho nhiều bệnh nhân ở nhiều phòng khám khác nhau.
+Bệnh nhân mỗi lần đến khám bệnh có mã khám bệnh duy nhất, có yêu cầu khám, ngày khám, kết luận.

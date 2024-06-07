@@ -1,0 +1,7 @@
+Mỗi sách được xác định bởi duy nhất một mã_sách, tên_sách, tác_giả, ngôn_ngữ, chuyên_ngành, năm_xuất_bản, nhà_xuất_bản.
+Mỗi quyền_sách được xác định bởi duy nhất một mã_quyển_sách, tình_trạng.
+Mỗi sách có nhiều quyển_sách.
+Mỗi bạn_đọc được xác định bởi duy nhất một mã_bạn_đọc, họ_và_tên_đệm, tên, ngày_cấp_thẻ, ngày_hết_hạn.
+Một bạn_đọc có thể mượn nhiều quyển_sách.
+Một quyển_sách có thể được_mượn bởi nhiều bạn_đọc.
+Khi mượn_sách, phải biết ngày_mượn, ngày_trả.

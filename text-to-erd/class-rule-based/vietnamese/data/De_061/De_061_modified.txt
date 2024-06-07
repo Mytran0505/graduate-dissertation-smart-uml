@@ -1,0 +1,9 @@
+Mỗi trường_thi được xác định bởi duy nhất một mã_trường_thi, tên_trường_thi, địa_chỉ_trường_thi.
+Mỗi trường_thi có nhiều phòng_thi.
+Mỗi phòng_thi được xác định bởi duy nhất một số_phòng_thi, sức_chứa.
+Một phòng_thi có nhiều thí_sinh.
+Mỗi thí_sinh được xác định bởi duy nhất một số_báo_danh, họ_tên_thí_sinh, ngày_sinh, giới_tính, địa_chỉ.
+Mỗi môn_thi được xác định bởi duy nhất một mã_môn_thi, tên_môn_thi, buổi_thi, ngày_thi.
+Một thí_sinh có thể thi nhiều môn_thi.
+Một môn_thi có thể được_thi bởi nhiều thí_sinh.
+Khi kết_quả, phải biết điểm_thi, vắng_thi.

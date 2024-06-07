@@ -1,0 +1,11 @@
+Mỗi thành_phố được xác định bởi duy nhất một mã_thành_phố, tên_thành_phố, khu_vực.
+Mỗi thành_phố có nhiều trường.
+Mỗi trường được xác định bởi duy nhất một mã_trường, tên_trường.
+Mỗi hình_thức_thi được xác định bởi duy nhất một mã_hình_thức_thi, tên_hình_thức_thi, số_lượng_thí_sinh_tối_đa.
+Mỗi thí_sinh được xác định bởi duy nhất một mã_thí_sinh, họ_tên_thí_sinh, năm_học, giới_tính, là_cá_nhân.
+Một trường có nhiều thí_sinh.
+Mỗi đội được xác định bởi duy nhất một mã_đội, tên_đội.
+Một hình_thức_thi có nhiều đội. Một trường có nhiều đội.
+Một thí_sinh có thể tham_gia nhiều đội.
+Một đội có thể có nhiều thí_sinh.
+Khi danh_sách_đội, phải biết là_đội_trưởng.

@@ -1,0 +1,8 @@
+Mỗi khóa_học được xác định bởi duy nhất một mã_khóa_học, tên_khóa_học, ngày_bắt_đầu, ngày_kết_thúc.
+Mỗi giáo_viên được xác định bởi duy nhất một mã_giáo_viên, tên_giáo_viên, địa_chỉ, điện_thoại.
+Mỗi học_viên được xác định bởi duy nhất một mã_học_viên, tên_học_viên, phái, ngày_sinh, địa_chỉ.
+Mỗi lớp_học được xác định bởi duy nhất một mã_lớp, học_phí.
+Một giáo_viên có nhiều lớp_học.
+Một khóa_học có nhiều lớp_học.
+Mỗi biên_lai được xác định bởi duy nhất một số_biên_lai, ngày_nộp, số_tiền.
+Một học_viên có nhiều biên_lai. Một lớp_học có nhiều biên_lai.

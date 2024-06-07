@@ -1,0 +1,7 @@
+Người ta muốn xây dựng một hệ thống cơ sở dữ liệu quản lý nhân viên như sau:
+Bảng nhân viên sẽ lưu trữ các thông tin bao gồm: mã nhân viên danh định, họ tên, ngày sinh, mức lương.
+Bảng phòng ban gồm các thuộc tính: mã phòng ban duy nhất để phân biệt với các phòng ban khác và tên phòng ban.
+Mỗi nhân viên sẽ thuộc một phòng ban nào đó.
+Bảng kỹ năng sẽ được ghi nhận các thông tin: mã kỹ năng duy nhất, tên kỹ năng.
+Một nhân viên có thể có nhiều kỹ năng và một kỹ năng cũng có thể được sở hữu bởi nhiều nhân viên.
+Khi ghi lại chi tiết kỹ năng sở hữu, hệ thống cần biết mức độ kỹ năng và ngày đăng ký.

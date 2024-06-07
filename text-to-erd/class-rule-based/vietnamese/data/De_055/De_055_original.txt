@@ -1,0 +1,9 @@
+Cho lược đồ toàn cục của cơ sở dữ liệu dành cho quản lý hệ thống cửa hàng tiện lợi:
+Mỗi cửa hàng có một mã cửa hàng duy nhất và tên cửa hàng.
+Một cửa hàng có nhiều nhân viên làm việc.
+Mỗi nhân viên có một mã nhân viên duy nhất, có tên nhân viên.
+Mỗi khách hàng có một mã khách hàng duy nhất, có tên khách hàng.
+Một cửa hàng sẽ có nhiều khách hàng đăng ký làm thành viên.
+Mỗi hóa đơn mua sắm tại cửa hàng có một mã hóa đơn duy nhất, có số tiền, ngày hóa đơn và nội dung.
+Mỗi khách hàng được phép mua sắm nhiều lần tại cửa hàng nên sẽ có nhiều hóa đơn.
+Nhiệm vụ của nhân viên bao gồm việc xuất hóa đơn cho khách hàng nên một nhân viên cũng sẽ có nhiều hóa đơn.

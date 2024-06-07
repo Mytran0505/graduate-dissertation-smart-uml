@@ -1,0 +1,10 @@
+Mỗi sinh_viên được xác định bởi duy nhất một mã_số_sinh_viên, tên_sinh_viên, ngày_sinh.
+Mỗi lớp được xác định bởi duy nhất một mã_số_lớp, tên_lớp, sỉ_số.
+Mỗi khoa được xác định bởi duy nhất một mã_số_khoa, tên_khoa, văn_phòng.
+Một khoa có nhiều lớp. Một khoa có nhiều sinh_viên.
+Một lớp có nhiều sinh_viên.
+Mỗi môn được xác định bởi duy nhất một mã_số_môn, tên_môn, số_tín_chỉ.
+Một khoa có nhiều môn.
+Một sinh_viên có thể học nhiều môn.
+Một môn có thể được_học bởi nhiều sinh_viên.
+Khi kết_quả, phải biết số_điểm.

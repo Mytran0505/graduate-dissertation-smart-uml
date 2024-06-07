@@ -1,0 +1,9 @@
+Cho cơ sở dữ liệu quản lý hộ khẩu gồm các quan hệ như sau:
+Mỗi người dân có các thông tin gồm số chứng minh nhân dân duy nhất, có họ_tên, ngày_sinh, quê_quán.
+Mỗi người dân sống tại một địa chỉ xác định và một địa chỉ có thể có nhiều người dân cùng sinh sống.
+Mỗi địa chỉ có các thông tin gồm mã địa chỉ duy nhất, số nhà, tên đường, phường, quận.
+Mỗi hộ khẩu có một mã hộ khẩu duy nhất để phân biệt với các hộ khẩu khác.
+Mỗi hộ khẩu chỉ có duy nhất một địa chỉ là địa chỉ thường trú của hộ khẩu đó.
+Một người dân có thể được ghi nhận trong chi tiết hộ khẩu của nhiều hộ khẩu và một hộ khẩu cũng có thể được đồng sở hữu bởi nhiều người dân.
+Mỗi quan hệ hộ khẩu thể hiện mối quan hệ giữa những người dân sở hữu hộ khẩu. Thông tin quan hệ hộ khẩu gồm một mã quan hệ duy nhất để phân biệt với các quan hệ khác và có mô tả quan hệ.
+Do đó, một quan hệ hộ khẩu sẽ có nhiều chi tiết hộ khẩu.

@@ -1,0 +1,9 @@
+Cho một lược đồ cơ sở dữ liệu quản lý ghi danh tại một trung tâm thể thao gồm các quan hệ như sau:
+Quan hệ khóa học có mã khóa học duy nhất để phân biệt với các khóa học khác, có tên khóa học, ngày bắt đầu, ngày kết thúc.
+Quan hệ giáo viên có các thông tin gồm: mã giáo viên duy nhất, tên giáo viên, địa chỉ, điện thoại.
+Quan hệ học viên có mã học viên duy nhất để quản lý, có tên học viên, phái, ngày sinh, địa chỉ.
+Quan hệ lớp học gồm các thông tin: mã lớp (danh định) và học phí.
+Một giáo viên sẽ được chỉ định dạy trong nhiều lớp học. Một khóa học cũng được mở trong nhiều lớp học.
+Khi học viên đóng học phí sẽ được ghi nhận lại biên lai.
+Quan hệ biên lai gồm các thông tin: số biên lai (danh định), ngày nộp, số tiền.
+Mỗi học viên có thể học nhiều lớp học tại trung tâm nên mỗi học viên sẽ có nhiều biên lai và một lớp học cũng được ghi nhận trong nhiều biên lai.

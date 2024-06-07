@@ -1,0 +1,8 @@
+Mỗi địa_điểm_tham_quan được xác định bởi duy nhất một mã_địa_điểm, tên_địa_điểm, khu_vực, địa_chỉ, thông_tin_giới_thiệu, năm_khai_thác.
+Mỗi loại_địa_điểm được xác định bởi duy nhất một mã_loại_địa_điểm, tên_loại_địa_điểm.
+Một loại_địa_điểm có nhiều địa_điểm_tham_quan.
+Mỗi loại_vé được gán tên_loại_vé, giá_vé, hạn_sử_dụng. Mỗi loại_vé được xác định bởi duy nhất một mã_loại_vé.
+Một loại_vé có thể có nhiều địa_điểm_tham_quan.
+Một địa_điểm_tham_quan có thể được_liệt_kê trong nhiều loại_vé.
+Mỗi bán_vé được xác định bởi duy nhất một mã_hóa_đơn_bán_vé, số_lượng_vé_bán, trị_giá, ngày_bán, ngày_hết_hạn.
+Một loại_vé có nhiều bán_vé.

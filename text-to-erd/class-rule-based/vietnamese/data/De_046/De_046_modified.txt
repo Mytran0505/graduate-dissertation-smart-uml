@@ -1,0 +1,11 @@
+Mỗi bệnh_viện được xác định bởi duy nhất một mã_bệnh_viện, tên_bệnh_viện, địa_chỉ.
+Mỗi nhà_sản_xuất được xác định bởi duy nhất một mã_nhà_sản_xuất, tên_nhà_sản_xuất, địa_chỉ.
+Mỗi thuốc được xác định bởi duy nhất một mã_thuốc, tên_thuốc, đơn_vị_tính, giá_thuốc.
+Một nhà_sản_xuất có nhiều thuốc.
+Mỗi bệnh_nhân được xác định bởi duy nhất một mã_bệnh_nhân, họ_tên, số_điện_thoại, ngày_sinh, giới_tính.
+Mỗi khám_bệnh được xác định bởi duy nhất một mã_khám_bệnh, ngày_khám, chẩn_đoán, ghi_chú.
+Một bệnh_nhân có nhiều khám_bệnh.
+Một bệnh_viên có nhiều khám_bệnh.
+Một khám_bệnh có thể kê nhiều thuốc.
+Một thuốc có thể kê nhiều khám_bệnh.
+Khi toa_thuốc, phải biết số_lượng, trị_giá.

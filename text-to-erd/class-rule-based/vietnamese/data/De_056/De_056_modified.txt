@@ -1,0 +1,8 @@
+Mỗi chi_nhánh được xác định bởi duy nhất một mã_chi_nhánh, tên_chi_nhánh.
+Một chi_nhánh có nhiều nhân_viên.
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, tên_nhân_viên.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, tên_khách_hàng.
+Một chi_nhánh có nhiều khách_hàng.
+Mỗi giao_dịch được xác định bởi duy nhất một mã_giao_dịch, số_tiền, ngày_giao_dịch, nội_dung.
+Một khách_hàng có nhiều giao_dịch.
+Một nhân_viên có nhiều giao_dịch.

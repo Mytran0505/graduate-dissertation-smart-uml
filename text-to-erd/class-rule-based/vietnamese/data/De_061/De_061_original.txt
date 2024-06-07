@@ -1,0 +1,8 @@
+Cho lược đồ cơ sở dữ liệu quản lý thi tốt nghiệp tại các trường Phổ thông Trung học Quận 9 như sau:
+Mỗi trường thi có mã trường thi duy nhất, tên trường thi, địa chỉ trường thi.
+Một trường thi có nhiều phòng thi.
+Mỗi phòng thi có một số phòng thi duy nhất để phân biệt với các phòng thi khác, có sức chứa.
+Một phòng thi có nhiều thí sinh tập trung thi.
+Mỗi thí sinh có một số báo danh duy nhất để phân biệt với các thí sinh khác, có họ tên thí sinh, ngày sinh, giới tính, địa chỉ.
+Mỗi môn thi có một mã môn thi duy nhất để phân biệt với các môn thi khác, có tên môn thi, buổi thi, ngày thi.
+Một thí sinh có thể tham gia thi nhiều môn thi và một một thi cũng có thể được tổ chức cho nhiều thí sinh thi. Khi lưu trữ kết quả thi, cần phải ghi lại điểm thi và trạng thái thí sinh có vắng thi hay không.

@@ -1,0 +1,6 @@
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, họ_tên, địa_chỉ, số_điện_thoại, loại_khách_hàng.
+Mỗi băng_đĩa được xác định bởi duy nhất một mã_băng_đĩa, tên_băng_đĩa, thể_loại.
+Một khách_hàng có nhiều phiếu_thuê.
+Mỗi phiếu_thuê được xác định bởi duy nhất một mã_phiếu_thuê, ngày_thuê, ngày_trả, số_lượng_thuê.
+Một phiếu_thuê có thể có nhiều băng_đĩa.
+Một băng_đĩa có thể được_thuê trong nhiều phiếu_thuê.

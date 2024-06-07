@@ -1,0 +1,7 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, tên_nhân_viên.
+Mỗi chức_vụ được xác định bởi duy nhất một tên_chức_vụ, mức_lương.
+Một chức_vụ có nhiều nhân_viên.
+Mỗi dự_án được xác định bởi duy nhất một mã_dự_án, tên_dự_án, ngân_sách.
+Một nhân_viên có thể triển_khai nhiều dự_án.
+Một dự_án có thể được_triển_khai bởi nhiều nhân_viên.
+Khi hồ_sơ, phải biết nhiệm_vụ, thời_gian.

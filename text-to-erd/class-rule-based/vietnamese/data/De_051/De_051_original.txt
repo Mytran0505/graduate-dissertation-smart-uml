@@ -1,0 +1,11 @@
+Hệ thống phòng khám quốc tế Singapore tại Sài Gòn có một phần lược đồ cơ sở dữ liệu toàn cục như sau:
+Thông tin phòng khám bao gồm: mã phòng khám duy nhất, tên phòng khám, địa chỉ, quận, điện thoại.
+Một phòng khám sẽ có nhiều chuyên khoa.
+Thông tin chuyên khoa bao gồm: mã chuyên khoa duy nhất, tên khoa.
+Thông tin bệnh nhân bao gồm: mã bệnh nhân duy nhất, tên bệnh nhân, ngày sinh, địa chỉ, điện thoại, giới tính.
+Thông tin bác sĩ bao gồm: mã bác sĩ duy nhất, tên bác sĩ, tên đăng nhập, mật khẩu.
+Một bác sĩ thuộc một chuyên khoa cụ thể và một chuyên khoa sẽ có nhiều bác sĩ.
+Thông tin khám bệnh bao gồm: mã khám bệnh duy nhất, yêu cầu khám, ngày khám, kết luận.
+Một bệnh nhân có khả năng đến khám nhiều lần nên sẽ có nhiều khám bệnh.
+Một bác sĩ thực hiện khám nhiều lần nên cũng có nhiều khám bệnh.
+Một phòng khám được lập ra để khám cho nhiều người nên cũng sẽ có nhiều khám bệnh.

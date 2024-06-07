@@ -1,0 +1,6 @@
+Một hệ thống cho thuê băng đĩa có thiết kế cơ sở dữ liệu như sau:
+Mỗi khách hàng có các thông tin gồm mã khách hàng duy nhất, họ tên, địa chỉ, số điện thoại, loại khách hàng.
+Mỗi băng đĩa có một mã băng đĩa duy nhất để phân biệt với các băng đĩa khác, có tên băng đĩa và thể loại.
+Một khách hàng sẽ có nhiều phiếu thuê nếu đến thuê băng đĩa nhiều lần.
+Mỗi phiếu thuê gồm các thông tin: mã phiếu thuê duy nhất, ngày thuê, ngày trả, số lượng thuê.
+Một phiếu thuê có thể có nhiều băng đĩa. Một băng đĩa có thể được thuê trong nhiều phiếu thuê.

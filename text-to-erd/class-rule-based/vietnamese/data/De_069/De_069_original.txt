@@ -1,0 +1,8 @@
+Cho cơ sở dữ liệu quản lý các đề tài của sinh viên gồm các quan hệ như sau:
+Mỗi giảng viên có mã giảng viên duy nhất để phân biệt với các giảng viên khác và có họ tên giảng viên.
+Mỗi sinh viên có mã sinh viên duy nhất để quản lý, có họ tên sinh viên, năm nhập học.
+Mỗi loại đề tài gồm mã loại đề tài duy nhất và tên loại.
+Mỗi đề tài được xác định bởi một mã đề tài duy nhất và có tên đề tài.
+Mỗi một đề tài thuộc duy nhất một loại đề tài và có một giảng viên hướng dẫn.
+Một sinh viên có thể tham gia làm một hay nhiều đề tài.
+Một đề tài có thể có một hoặc nhiều sinh viên cùng tham gia làm.

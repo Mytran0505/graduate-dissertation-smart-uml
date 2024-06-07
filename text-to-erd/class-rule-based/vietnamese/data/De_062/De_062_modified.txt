@@ -1,0 +1,9 @@
+Mỗi chi_nhánh được xác định bởi duy nhất một mã_chi_nhánh, tên_chi_nhánh, thành_phố.
+Mỗi chi_nhánh có nhiều khách_hàng.
+Mỗi khách_hàng được xác định bởi duy nhất một mã_khách_hàng, họ_tên_khách_hàng, ngày_sinh, địa_chỉ, nghề_nghiệp, nơi_công_tác, điện_thoại, chứng_minh_nhân_dân.
+Mỗi loại_tài_khoản được xác định bởi duy nhất một mã_loại_tài_khoản, tên_loại_tài_khoản, mô_tả.
+Mỗi tài_khoản được xác định bởi duy nhất một số_tài_khoản, ngày_mở, ngày_đóng, lãi_suất, trạng_thái.
+Một loại_tài_khoản có nhiều tài_khoản. Một chi_nhánh có nhiều tài_khoản.
+Một tài_khoản có thể thuộc nhiều khách_hàng.
+Một khách_hàng có thể có nhiều tài_khoản.
+Khi tài_khoản_khách_hàng, phải biết số_tiền.

@@ -1,0 +1,8 @@
+Mỗi nhân_viên được xác định bởi duy nhất một mã_nhân_viên, họ_tên, ngày_vào_làm, hệ_số_lương.
+Một phòng_ban có nhiều nhân_viên.
+Mỗi phòng_ban được xác định bởi duy nhất một mã_phòng_ban, tên_phòng_ban.
+Một phòng_ban chỉ có duy nhất một nhân_viên làm trưởng_phòng.
+Mỗi xe được xác định bởi duy nhất một mã_xe, loại_xe, số_chỗ_ngồi, năm_sản_xuất.
+Mỗi phân_công được xác định bởi duy nhất một mã_phân_công, ngày_đi, ngày_về, nơi_đến.
+Một nhân_viên có nhiều phân_công.
+Một xe có nhiều phân_công.

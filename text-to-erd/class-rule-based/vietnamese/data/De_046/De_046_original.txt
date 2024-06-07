@@ -1,0 +1,10 @@
+Cho lược đồ cơ sở dữ liệu quản lý bệnh viện như sau:
+Thông tin bệnh viện gồm: mã bệnh viện (danh định), tên bệnh viện, địa chỉ.
+Thông tin nhà sản xuất gồm: mã nhà sản xuất (danh định), tên nhà sản xuất, địa chỉ.
+Thông tin thuốc gồm: mã thuốc (danh định), tên thuốc, đơn vị tính, giá thuốc.
+Một nhà sản xuất cung cấp cho bệnh viện nhiều thuốc.
+Thông tin bệnh nhân gồm: mã bệnh nhân (danh định), họ tên, số điện thoại, ngày sinh, giới tính.
+Thông tin khám bệnh gồm: mã khám bệnh (danh định), ngày khám, chẩn đoán, ghi chú.
+Một bệnh nhân sẽ có nhiều khám bệnh vì có thể tái khám nhiều lần. Một bệnh viện dùng để tổ chức khám bệnh cũng sẽ có nhiều khám bệnh.
+Sau khi khám bệnh, một toa thuốc sẽ được kê cho bệnh nhân để sử dụng.
+Một khám bệnh có thể kê nhiều thuốc khác nhau. Một thuốc cũng có thể được kê trong nhiều khám bệnh. Khi kê toa thuốc, cần phải biết số lượng và trị giá.

@@ -1,0 +1,5 @@
+Mỗi người_dùng được gán tên_người_dùng, mật_khẩu, ngày_đăng_ký, quốc_tịch. Mỗi người_dùng được xác định bởi duy nhất một mã_người_dùng.
+Mỗi kênh được gán tên_kênh, số_lượng_người_theo_dõi, ngày_tạo_kênh. Mỗi kênh được xác định bởi duy nhất một mã_kênh.
+Một người_dùng có nhiều kênh.
+Mỗi video được xác định bởi duy nhất một mã_video, tiêu_đề, thời_lượng, giới_hạn_độ_tuổi.
+Một kênh có thể chia_sẻ nhiều video. Một video có thể được_chia_sẻ bởi nhiều kênh.

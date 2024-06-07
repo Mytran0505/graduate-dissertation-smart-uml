@@ -1,0 +1,11 @@
+Mỗi phòng_khám được xác định bởi duy nhất một mã_phòng_khám, tên_phòng_khám, địa_chỉ.
+Mỗi nhà_cung_cấp được xác định bởi duy nhất một mã_nhà_cung_cấp, tên_nhà_cung_cấp, địa_chỉ.
+Mỗi thuốc được xác định bởi duy nhất một mã_thuốc, tên_thuốc, đơn_vị_tính, giá_thuốc.
+Một nhà_cung_cấp có nhiều thuốc.
+Mỗi bệnh_nhân được xác định bởi duy nhất một mã_bệnh_nhân, họ_tên, số_điện_thoại, ngày_sinh, giới_tính.
+Mỗi khám_bệnh được xác định bởi duy nhất một mã_khám_bệnh, ngày_khám, chẩn_đoán, ghi_chú.
+Một bệnh_nhân có nhiều khám_bệnh.
+Một phòng_khám có nhiều khám_bệnh.
+Một khám_bệnh có thể kê nhiều thuốc.
+Một thuốc có thể được_kê trong nhiều khám_bệnh.
+Khi đơn_thuốc, phải biết số_lượng, thành_tiền.
