@@ -1,4 +1,4 @@
 Một thư viện tổ chức việc cho mượn sách như sau:
 Mỗi quyển sách được đánh một mã sách dùng để phân biệt với các quyển sách khác (giả sử nếu một tác phẩm có nhiều bản giống nhau hoặc có nhiều tập thì cũng xem là có mã sách khác nhau), mỗi mã sách xác định các thông tin khác như: tên sách, tên tác giả, nhà xuất bản, năm xuất bản.
 Mỗi độc giả được thư viện cấp cho một thẻ thư viện, trong đó có ghi rõ mã độc giả, cùng với các thông tin khác như: họ tên, ngày sinh, địa chỉ, nghề nghiệp.
-Cứ mỗi lượt mượn sách, độc giả phải ghi các quyển sách cần mượn vào một phiếu mượn, mỗi phiếu mượn có một số phiếu mượn duy nhất, mỗi phiếu mượn xác định các thông tin như: ngày mượn, độc giả mượn, các quyển sách mượn và ngảy trả. Các quyển sách trong cùng một phiếu mượn không nhất thiết phải trả trong cùng một ngày.
+Cứ mỗi lượt mượn sách, độc giả phải ghi các quyển sách cần mượn vào một phiếu mượn, mỗi phiếu mượn có một số phiếu mượn duy nhất, mỗi phiếu mượn xác định các thông tin như: ngày mượn, độc giả mượn, các quyển sách mượn và ngày trả. Các quyển sách trong cùng một phiếu mượn không nhất thiết phải trả trong cùng một ngày.
