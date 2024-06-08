@@ -1,0 +1,9 @@
+Cho lược đồ cơ sở dữ liệu Quản lý bài viết của một website đăng tin có cấu trúc như sau:
+Lược đồ quan hệ thành viên nhằm mô tả thông tin toàn bộ người dùng của trang web. Mỗi thành viên có một tên thành viên, ngày tham gia, cấp bậc, ngày truy cập gần nhất và mỗi thành viên sẽ được ấn định một mã thành viên duy nhất để quản lý.
+Lược đồ quan hệ bài viết nhằm mô tả cho những bài viết đang được quản lý. Mỗi bài viết được ghi nhận tiêu đề, nội dung, ngày đăng, số lượt yêu thích và được ấn định một mã bài viết duy nhất để theo dõi.
+Một bài viết chỉ do một thành viên làm tác giả viết nên.
+Lược đồ quan hệ chủ đề nhằm mô tả thông tin các chủ đề được quản lý. Mỗi thông tin chủ đề sẽ bao gồm mã chủ đề duy nhất, tên chủ đề, mô tả.
+Một chủ đề có thể là chủ đề cha của nhiều chủ đề khác.
+Một bài viết có thể thuộc một hay nhiều chủ đề. Một chủ đề cũng có thể chứa một hay nhiều bài viết.
+Lược đồ quan hệ bình luận nhằm mô tả thông tin bình luận về bài viết. Thông tin bình luận được ghi nhận bao gồm: nội dung bình luận, thời gian bình luận. Mỗi bình luận được đặt một mã bình luận duy nhất để quản lý.
+Mỗi bình luận chỉ thuộc một bài viết và cũng chỉ thuộc một thành viên viết ra bình luận đó.
