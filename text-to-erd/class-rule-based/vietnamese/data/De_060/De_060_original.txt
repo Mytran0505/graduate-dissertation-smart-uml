@@ -1,7 +1,7 @@
 Cho cơ sở dữ liệu của một công ty máy tính thực hiện các dự án phần mềm gồm các quan hệ sau:
 Quan hệ dự án gồm các thông tin: mã dự án (danh định), tên, kinh phí, vị trí.
 Quan hệ nhân viên gồm các thông tin: mã nhân viên (danh định), tên nhân viên.
-Quan hệ lương gồm các thông tin: chức vụ (danh định), mức lương. 
+Quan hệ lương gồm các thông tin: chức vụ (danh định), mức lương.
 Một quan hệ lương sẽ được gán cho nhiều quan hệ nhân viên.
 Một nhân viên có thể đảm nhiệm nhiều dự án và một dự án cũng có thể được phân công cho nhiều nhân viên đảm nhiệm.
-Khi ghi lại thông tin trách nhiệm, cầm phải biết trách nhiệm của nhân viên và thời gian thực hiện.
+Khi ghi lại thông tin trách nhiệm, cần phải biết trách nhiệm của nhân viên và thời gian thực hiện.
