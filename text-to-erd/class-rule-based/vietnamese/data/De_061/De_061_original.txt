@@ -5,4 +5,4 @@ Mỗi phòng thi có một số phòng thi duy nhất để phân biệt với c
 Một phòng thi có nhiều thí sinh tập trung thi.
 Mỗi thí sinh có một số báo danh duy nhất để phân biệt với các thí sinh khác, có họ tên thí sinh, ngày sinh, giới tính, địa chỉ.
 Mỗi môn thi có một mã môn thi duy nhất để phân biệt với các môn thi khác, có tên môn thi, buổi thi, ngày thi.
-Một thí sinh có thể tham gia thi nhiều môn thi và một một thi cũng có thể được tổ chức cho nhiều thí sinh thi. Khi lưu trữ kết quả thi, cần phải ghi lại điểm thi và trạng thái thí sinh có vắng thi hay không.
+Một thí sinh có thể tham gia thi nhiều môn thi và một môn thi cũng có thể được tổ chức cho nhiều thí sinh thi. Khi lưu trữ kết quả thi, cần phải ghi lại điểm thi và trạng thái thí sinh có vắng thi hay không.
