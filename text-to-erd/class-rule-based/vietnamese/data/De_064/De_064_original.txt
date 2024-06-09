@@ -4,6 +4,6 @@ Mỗi nhân viên thuộc một phòng quản lý và một phòng sẽ quản l
 Quan hệ phòng lưu trữ các thông tin gồm: mã phòng (danh định), tên phòng.
 Mỗi phòng có một nhân viên làm trưởng phòng.
 Quan hệ dự án lưu trữ các thông tin gồm: mã dự án (danh định), tên dự án.
-Mỗi dự án do một phòng cụ thể thực hiện và một phòng sẽ thực hiện nhiều dự án. 
+Mỗi dự án do một phòng cụ thể thực hiện và một phòng sẽ thực hiện nhiều dự án.
 Mỗi dự án có thể có nhiều nhân viên tham gia và mỗi nhân viên có thể tham gia nhiều dự án.
 Khi ghi lại thông tin tham gia, cần phải biết số ngày.
