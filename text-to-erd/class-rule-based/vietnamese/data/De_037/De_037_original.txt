@@ -1,4 +1,4 @@
-Cho lược đồ cơ sở dữ liệu Quản lý thẻ tài khoản gồm các quan hệ như sau:  
+Cho lược đồ cơ sở dữ liệu Quản lý thẻ tài khoản gồm các quan hệ như sau:
 Quan hệ khách hàng có mã khách hàng duy nhất, họ tên, ngày sinh, địa chỉ, số điện thoại và chứng minh nhân dân.
 Quan hệ loại tài khoản có mã loại tài khoản duy nhất để phân biệt với các loại tài khoản khác, có tên loại tài khoản và mô tả.
 Quan hệ tài khoản có số tài khoản danh định duy nhất, ngày mở, số dư, lãi suất, trạng thái.
