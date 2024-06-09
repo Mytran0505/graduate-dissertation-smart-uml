@@ -6,4 +6,4 @@ Một nhà_xuất_bản có nhiều cuốn_sách. Mỗi nhà_xuất_bản đư�
 Mỗi bạn_đọc được xác định bởi duy nhất một số_thẻ, họ_và_tên, địa_chỉ.
 Một bạn_đọc có thể mượn_trả nhiều cuốn_sách.
 Một cuốn_sách có thể được_mượn_trả bởi nhiều bạn_đọc.
-Khi mượn_trả_sách, phải biết ngày_mượn.
+Khi mượn_trả_sách, phải biết ngày_mượn, ngày_trả.
