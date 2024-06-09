@@ -1,6 +1,6 @@
 Cho lược đồ cơ sở dữ liệu sau đây quản lý kết quả học tập của sinh viên:
-Mỗi sinh viên được xác định bởi một mã sinh viên duy nhất, có tên sinh viên, ngày sinh.
-Mỗi lớp có một mã lớp duy nhất để phân biệt với các lớp khác, có tên lớp, sỉ số.
+Mỗi sinh viên được xác định bởi một mã số sinh viên duy nhất, có tên sinh viên, ngày sinh.
+Mỗi lớp có một mã số lớp duy nhất để phân biệt với các lớp khác, có tên lớp, sỉ số.
 Mỗi khoa có các thông tin gồm mã khoa duy nhất, tên khoa, văn phòng.
 Một khoa có mở nhiều lớp để sinh viên đăng ký học. Do đó, một khoa cũng có nhiều sinh viên.
 Một lớp cũng có nhiều sinh viên theo học.
