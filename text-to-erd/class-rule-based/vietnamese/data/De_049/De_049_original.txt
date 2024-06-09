@@ -1,4 +1,4 @@
-Cho lược đồ quan hệ quản lý tình trạng thuê sách của độc  giả như sau:
+Cho lược đồ quan hệ quản lý tình trạng thuê sách của độc giả như sau:
 Thông tin độc giả bao gồm: mã độc giả (danh định), họ tên, ngày sinh, địa chỉ, số điện thoại.
 Thông tin sách bao gồm: mã sách (danh định), tên sách, thể loại, nhà xuất bản.
 Một độc giả khi đến thuê sách nhiều lần sẽ có nhiều phiếu thuê.
