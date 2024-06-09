@@ -3,4 +3,4 @@ Quan hệ sách lưu trữ thông tin gồm một mã sách duy nhất để ph�
 Quan hệ quyển sách có mã quyển sách duy nhất để phân biệt và có tình trạng.
 Mỗi sách trong thư viện có nhiều quyển sách.
 Quan hệ bạn đọc được xác định bởi một mã bạn đọc duy nhất, có họ và tên đệm, tên, ngày cấp thẻ, ngày hết hạn.
-Một bạn đọc có thể mượn nhiều quyển sách khác nhau và một quyển sách thể được mượn bởi nhiều bạn đọc. Khi ghi lại thông tin mượn sách, cần phải biết ngày mượn và ngày trả.
+Một bạn đọc có thể mượn nhiều quyển sách khác nhau và một quyển sách có thể được mượn bởi nhiều bạn đọc. Khi ghi lại thông tin mượn sách, cần phải biết ngày mượn và ngày trả.
