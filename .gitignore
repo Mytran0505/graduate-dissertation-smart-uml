@@ -3,3 +3,4 @@ text-to-sql/model
 text-to-sql/model_ok
 text-to-sql/data
 **/*.pyc
+text_to_sql_application/src/model
